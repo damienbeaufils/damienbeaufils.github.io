@@ -1,0 +1,23 @@
+[
+    {
+        "school":"[SUPINFO International University](https://www.supinfo.com/)",
+        "degree":"Master of Science",
+        "major":"Expert in Computer and Information Systems",
+        "notes":"Paris, France",
+        "range":"2008 - 2010"
+    },
+    {
+        "school":"[Université Paris-Sud 11](https://www.universite-paris-saclay.fr/)",
+        "degree":"Bachelor of Science",
+        "major":"System administrator",
+        "notes":"Orsay, France",
+        "range":"2007 - 2008"
+    },
+    {
+        "school":"[Institut Universitaire de Technologie](http://www.iut-orsay.u-psud.fr/)",
+        "degree":"Associate of Science",
+        "major":"Software engineering",
+        "notes":"Orsay, France",
+        "range":"2007 - 2008"
+    }
+]

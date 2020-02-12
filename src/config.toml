@@ -1,0 +1,80 @@
+baseURL = "https://damienbeaufils.github.io/"
+languageCode = "en-ca"
+title = "Damien Beaufils"
+theme = "hugo-resume"
+enableGitInfo = true
+
+[markup]
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = true
+    hl_Lines = ""
+    lineNoStart = 1
+    lineNos = false
+    lineNumbersInTable = true
+    tabWidth = 4
+    style = "tango"
+
+
+
+
+[taxonomies]
+    tag = "tags"
+
+
+[params]
+    firstName = "Damien"
+    lastName = "Beaufils"
+    profileImage = "img/damienbeaufils.jpg"
+    # phone = ""
+    contactNote = "Software Crafter"
+    address = "Montréal, QC, Canada"
+    email = "damien.beaufils@zenika.com"
+    description = "Damien Beaufils, Software Developer, Software Crafter, Senior Consultant, Trainer"
+    # favicon = "images/favicon.ico"
+    # what sections
+    showSkills = true
+    showProjects = false
+    showOpenSource = false
+    showPublications = true
+    # publicationsAlternateName = "Presentations"
+    showExperience = true
+    showEducation = true
+    showBlog      = false
+    showQr = false
+
+    # do you want to show git hash on page footer and link to repo? Add commit prefix here.
+    gitCommitPrefix = "https://github.com/damienbeaufils/damienbeaufils.github.io/commit/"
+
+
+[[params.handles]]
+    name = "LinkedIn"
+    link = "https://www.linkedin.com/in/damienbeaufils/"
+
+[[params.handles]]
+    name = "Twitter"
+    link = "https://twitter.com/damienbeaufils/"
+
+[[params.handles]]
+    name = "GitHub"
+    link = "https://github.com/damienbeaufils/"
+
+[[params.handles]]
+    name = "SlideShare"
+    link = "https://slideshare.net/damienbeaufils1"
+
+[[params.handles]]
+    name = "Speaker-Deck"
+    link = "https://speakerdeck.com/damienbeaufils"
+
+[permalinks]
+  publications = "/presentations/:title/"
+
+
+
+[params.google.analytics]
+    trackerID = "UA-158255875-1"
+
+
+[outputs]
+  home = ["HTML", "JSON"]

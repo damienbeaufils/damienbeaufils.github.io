@@ -28,5 +28,5 @@ deploy:
     skip_cleanup: true
     github_token: ${GITHUB_TOKEN}
     on:
-      repo: socrates-ca/socrates-ca.github.io
+      repo: damienbeaufils/damienbeaufils.github.io
       branch: hugo

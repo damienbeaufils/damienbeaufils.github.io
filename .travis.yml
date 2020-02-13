@@ -1,0 +1,32 @@
+language: go
+
+go:
+  - 1.x
+
+sudo: false
+
+git:
+  depth: 10
+
+branches:
+  only:
+    - hugo
+
+install:
+  # Hugo - documentation
+  - wget -O /tmp/hugo.deb https://github.com/gohugoio/hugo/releases/download/v0.64.1/hugo_0.64.1_Linux-64bit.deb
+  - sudo dpkg -i /tmp/hugo.deb
+
+script:
+  - cd src && hugo --themesDir themes
+
+deploy:
+  - provider: pages
+    target_branch: master
+    local_dir: public
+    edge: true
+    skip_cleanup: true
+    github_token: ${GITHUB_TOKEN}
+    on:
+      repo: socrates-ca/socrates-ca.github.io
+      branch: hugo

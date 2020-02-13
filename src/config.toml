@@ -67,6 +67,10 @@ enableGitInfo = true
     name = "Speaker-Deck"
     link = "https://speakerdeck.com/damienbeaufils"
 
+[[params.handles]]
+    name = "500px"
+    link = "https://500px.com/damienbeaufils"
+
 [permalinks]
   publications = "/presentations/:title/"
 

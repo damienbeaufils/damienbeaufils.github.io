@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Web Services on Damien Beaufils</title>
+    <link>https://damienbeaufils.github.io/tags/web-services/</link>
+    <description>Recent content in Web Services on Damien Beaufils</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-ca</language>
+    <lastBuildDate>Wed, 15 Jun 2011 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://damienbeaufils.github.io/tags/web-services/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Web Services for IAS CoRoT archives</title>
+      <link>https://damienbeaufils.github.io/presentations/web-services-for-ias-corot-archives/</link>
+      <pubDate>Wed, 15 Jun 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://damienbeaufils.github.io/presentations/web-services-for-ias-corot-archives/</guid>
+      <description>IAS is the official archive repository for the CoRoT mission data. In addition of data archiving in a secure way, IAS proposes several interfaces corresponding to different level of data and different kind of users. We present here the recent changes made aiming at improving our interfaces with real added-value services related to the available data. In particular, we provide a set of web services which permit to give access to additional informations on a given target such as online lightcurve plotting or periodogram computing and plotting.</description>
+    </item>
+    
+  </channel>
+</rss>

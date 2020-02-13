@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Technical Debt on Damien Beaufils</title>
+    <link>https://damienbeaufils.github.io/tags/technical-debt/</link>
+    <description>Recent content in Technical Debt on Damien Beaufils</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-ca</language>
+    <lastBuildDate>Fri, 07 Apr 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://damienbeaufils.github.io/tags/technical-debt/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Comment être Tech Lead dans une pizza team XXL sans finir sous l&#39;eau ?</title>
+      <link>https://damienbeaufils.github.io/presentations/comment-%C3%AAtre-tech-lead-dans-une-pizza-team-xxl-sans-finir-sous-leau/</link>
+      <pubDate>Fri, 07 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://damienbeaufils.github.io/presentations/comment-%C3%AAtre-tech-lead-dans-une-pizza-team-xxl-sans-finir-sous-leau/</guid>
+      <description>Être Tech Lead, c&amp;rsquo;est être au service de l&#39;équipe en étant à la fois formateur, facilitateur, expert et coach. Mais quand l&#39;équipe projet est composée de plus de 15 personnes, dont 10 développeur·euse·s, comment remplir ce rôle tout en continuant à prendre le temps de développer avec l&#39;équipe, et ce sans finir sous l&amp;rsquo;eau ?
+Dans cette conférence, je vous partagerai un retour d&amp;rsquo;expérience d&amp;rsquo;1 an dans le rôle du Tech Lead d&amp;rsquo;une équipe de développement travaillant sur un site web grand public.</description>
+    </item>
+    
+    <item>
+      <title>Petit-déjeuner « Secteur public : REX du site service-public.fr »</title>
+      <link>https://damienbeaufils.github.io/presentations/petit-d%C3%A9jeuner-secteur-public-rex-du-site-service-public.fr/</link>
+      <pubDate>Tue, 13 Dec 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://damienbeaufils.github.io/presentations/petit-d%C3%A9jeuner-secteur-public-rex-du-site-service-public.fr/</guid>
+      <description>Depuis 2015, la DILA accompagnée par OCTO Technology, s’est lancée dans la refonte du site officiel de l’administration française, le portail unique de renseignement administratif et d’accès aux services en ligne. Ce projet s’inscrit dans un programme global de simplification de l’offre d’information administrative et de développement de nouveaux services de relation à l’usager.
+9 mois plus tard, Service-Public.fr est entièrement neuf et reste le site majeur de l’administration. Depuis, il intègre en continu de nouveaux services de qualité au rythme des mises en production toutes les 2 semaines.</description>
+    </item>
+    
+    <item>
+      <title>Développement artisanal d&#39;un logiciel en 20 itérations</title>
+      <link>https://damienbeaufils.github.io/presentations/d%C3%A9veloppement-artisanal-dun-logiciel-en-20-it%C3%A9rations/</link>
+      <pubDate>Fri, 30 Sep 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://damienbeaufils.github.io/presentations/d%C3%A9veloppement-artisanal-dun-logiciel-en-20-it%C3%A9rations/</guid>
+      <description>Retour d&amp;rsquo;expérience d&amp;rsquo;un projet de refonte d&amp;rsquo;une billetterie en ligne sur dix mois. L&amp;rsquo;enjeu attendu était les performances du back-end pour tenir la charge lors de l&amp;rsquo;ouverture des ventes. L&amp;rsquo;enjeu réel a été de maintenir la base de code aussi bien back-end que front-end au fil des itérations.
+Une équipe composée d&amp;rsquo;un Tech Lead et de quatre développeurs a réussi à livrer un produit maintenable en plus d&#39;être bien conçu.</description>
+    </item>
+    
+  </channel>
+</rss>

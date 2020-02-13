@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Damien Beaufils</title>
+    <link>https://damienbeaufils.github.io/tags/</link>
+    <description>Recent content in Tags on Damien Beaufils</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-ca</language>
+    <lastBuildDate>Tue, 13 Nov 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://damienbeaufils.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Design</title>
+      <link>https://damienbeaufils.github.io/tags/design/</link>
+      <pubDate>Tue, 13 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://damienbeaufils.github.io/tags/design/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Software Craftsmanship</title>
+      <link>https://damienbeaufils.github.io/tags/software-craftsmanship/</link>
+      <pubDate>Tue, 13 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://damienbeaufils.github.io/tags/software-craftsmanship/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mob programming</title>
+      <link>https://damienbeaufils.github.io/tags/mob-programming/</link>
+      <pubDate>Fri, 23 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://damienbeaufils.github.io/tags/mob-programming/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Technical retrospective</title>
+      <link>https://damienbeaufils.github.io/tags/technical-retrospective/</link>
+      <pubDate>Fri, 23 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://damienbeaufils.github.io/tags/technical-retrospective/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tracer Bullet</title>
+      <link>https://damienbeaufils.github.io/tags/tracer-bullet/</link>
+      <pubDate>Fri, 23 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://damienbeaufils.github.io/tags/tracer-bullet/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Test Driven Development</title>
+      <link>https://damienbeaufils.github.io/tags/test-driven-development/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://damienbeaufils.github.io/tags/test-driven-development/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Test Pyramid</title>
+      <link>https://damienbeaufils.github.io/tags/test-pyramid/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://damienbeaufils.github.io/tags/test-pyramid/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tech Lead</title>
+      <link>https://damienbeaufils.github.io/tags/tech-lead/</link>
+      <pubDate>Tue, 21 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://damienbeaufils.github.io/tags/tech-lead/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Technical Debt</title>
+      <link>https://damienbeaufils.github.io/tags/technical-debt/</link>
+      <pubDate>Fri, 07 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://damienbeaufils.github.io/tags/technical-debt/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Testing</title>
+      <link>https://damienbeaufils.github.io/tags/testing/</link>
+      <pubDate>Tue, 07 Jun 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://damienbeaufils.github.io/tags/testing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Astrophysics</title>
+      <link>https://damienbeaufils.github.io/tags/astrophysics/</link>
+      <pubDate>Wed, 15 Jun 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://damienbeaufils.github.io/tags/astrophysics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>REST</title>
+      <link>https://damienbeaufils.github.io/tags/rest/</link>
+      <pubDate>Wed, 15 Jun 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://damienbeaufils.github.io/tags/rest/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Web Services</title>
+      <link>https://damienbeaufils.github.io/tags/web-services/</link>
+      <pubDate>Wed, 15 Jun 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://damienbeaufils.github.io/tags/web-services/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

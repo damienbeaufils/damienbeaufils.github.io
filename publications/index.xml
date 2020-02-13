@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Publications on Damien Beaufils</title>
+    <link>https://damienbeaufils.github.io/publications/</link>
+    <description>Recent content in Publications on Damien Beaufils</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-ca</language>
+    
+	<atom:link href="https://damienbeaufils.github.io/publications/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>To DRY or not to DRY?</title>
+      <link>https://damienbeaufils.github.io/presentations/to-dry-or-not-to-dry/</link>
+      <pubDate>Tue, 13 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://damienbeaufils.github.io/presentations/to-dry-or-not-to-dry/</guid>
+      <description>You hear it since you started programming: you have to remove, remove and remove code duplication!
+Why? If you have ever worked with a legacy project, when there was code duplication, the same bug in the code had to be corrected in several places, which drove you crazy. And I don’t even talk about introducing new features.
+Even quality tools like SonarQube tells you about code duplication percentage, with a heavy hint: if you have duplication, it’s bad.</description>
+    </item>
+    
+    <item>
+      <title>Guide anti-frustration pour navigation en projet trouble</title>
+      <link>https://damienbeaufils.github.io/presentations/guide-anti-frustration-pour-navigation-en-projet-trouble/</link>
+      <pubDate>Fri, 23 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://damienbeaufils.github.io/presentations/guide-anti-frustration-pour-navigation-en-projet-trouble/</guid>
+      <description>Bien souvent, des projets démarrent dans le brouillard et le chaos. Qu&amp;rsquo;ils soient en agile ou non. Et bien trop souvent, une purée de pois vous accompagne tout le long du projet et vous emmène droit dans le mur, sans que vous le sachiez. Les victimes : vous, et votre client.
+Dans ce retour d&amp;rsquo;expérience, nous vous partagerons comment allumer des feux anti-brouillards. Concrètement, des pratiques facilement actionnables pour vous, votre équipe et votre client, afin d&amp;rsquo;améliorer les conditions de réalisation et de pilotage de vos futurs projets.</description>
+    </item>
+    
+    <item>
+      <title>Café Craft podcast 15 : Renverser la pyramide des tests !</title>
+      <link>https://damienbeaufils.github.io/presentations/caf%C3%A9-craft-podcast-15-renverser-la-pyramide-des-tests/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://damienbeaufils.github.io/presentations/caf%C3%A9-craft-podcast-15-renverser-la-pyramide-des-tests/</guid>
+      <description>« Tests unitaires, tests d&amp;rsquo;intégration, tests fonctionnels. Tous sont utiles, mais chacun a un usage&amp;hellip; Comment assurer une répartition optimale de chaque &amp;ldquo;couche&amp;rdquo; de tests ? Sur quelles bases ? Damien Beaufils nous explique tout. »</description>
+    </item>
+    
+    <item>
+      <title>Parole d’expert : Le rôle de Tech lead selon Damien Beaufils</title>
+      <link>https://damienbeaufils.github.io/presentations/parole-dexpert-le-r%C3%B4le-de-tech-lead-selon-damien-beaufils/</link>
+      <pubDate>Tue, 21 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://damienbeaufils.github.io/presentations/parole-dexpert-le-r%C3%B4le-de-tech-lead-selon-damien-beaufils/</guid>
+      <description>« Pour la sortie de notre Parcours Tech lead, nous avons rencontré Damien Beaufils, développeur et consultant chez OCTO Technology. Damien occupe aussi notamment le rôle de Tech lead sur des projets de développement.
+Nous avons posé à Damien des questions pour vous aider à mieux voir ce qu’est, en pratique, le rôle de Tech lead : comment on s’y forme, quels en sont ses avantages et inconvénients, ses missions principales et ses responsabilités.</description>
+    </item>
+    
+    <item>
+      <title>Comment être Tech Lead dans une pizza team XXL sans finir sous l&#39;eau ?</title>
+      <link>https://damienbeaufils.github.io/presentations/comment-%C3%AAtre-tech-lead-dans-une-pizza-team-xxl-sans-finir-sous-leau/</link>
+      <pubDate>Fri, 07 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://damienbeaufils.github.io/presentations/comment-%C3%AAtre-tech-lead-dans-une-pizza-team-xxl-sans-finir-sous-leau/</guid>
+      <description>Être Tech Lead, c&amp;rsquo;est être au service de l&#39;équipe en étant à la fois formateur, facilitateur, expert et coach. Mais quand l&#39;équipe projet est composée de plus de 15 personnes, dont 10 développeur·euse·s, comment remplir ce rôle tout en continuant à prendre le temps de développer avec l&#39;équipe, et ce sans finir sous l&amp;rsquo;eau ?
+Dans cette conférence, je vous partagerai un retour d&amp;rsquo;expérience d&amp;rsquo;1 an dans le rôle du Tech Lead d&amp;rsquo;une équipe de développement travaillant sur un site web grand public.</description>
+    </item>
+    
+    <item>
+      <title>Petit-déjeuner « Secteur public : REX du site service-public.fr »</title>
+      <link>https://damienbeaufils.github.io/presentations/petit-d%C3%A9jeuner-secteur-public-rex-du-site-service-public.fr/</link>
+      <pubDate>Tue, 13 Dec 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://damienbeaufils.github.io/presentations/petit-d%C3%A9jeuner-secteur-public-rex-du-site-service-public.fr/</guid>
+      <description>Depuis 2015, la DILA accompagnée par OCTO Technology, s’est lancée dans la refonte du site officiel de l’administration française, le portail unique de renseignement administratif et d’accès aux services en ligne. Ce projet s’inscrit dans un programme global de simplification de l’offre d’information administrative et de développement de nouveaux services de relation à l’usager.
+9 mois plus tard, Service-Public.fr est entièrement neuf et reste le site majeur de l’administration. Depuis, il intègre en continu de nouveaux services de qualité au rythme des mises en production toutes les 2 semaines.</description>
+    </item>
+    
+    <item>
+      <title>Développement artisanal d&#39;un logiciel en 20 itérations</title>
+      <link>https://damienbeaufils.github.io/presentations/d%C3%A9veloppement-artisanal-dun-logiciel-en-20-it%C3%A9rations/</link>
+      <pubDate>Fri, 30 Sep 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://damienbeaufils.github.io/presentations/d%C3%A9veloppement-artisanal-dun-logiciel-en-20-it%C3%A9rations/</guid>
+      <description>Retour d&amp;rsquo;expérience d&amp;rsquo;un projet de refonte d&amp;rsquo;une billetterie en ligne sur dix mois. L&amp;rsquo;enjeu attendu était les performances du back-end pour tenir la charge lors de l&amp;rsquo;ouverture des ventes. L&amp;rsquo;enjeu réel a été de maintenir la base de code aussi bien back-end que front-end au fil des itérations.
+Une équipe composée d&amp;rsquo;un Tech Lead et de quatre développeurs a réussi à livrer un produit maintenable en plus d&#39;être bien conçu.</description>
+    </item>
+    
+    <item>
+      <title>Developer&#39;s Journey podcast 16</title>
+      <link>https://damienbeaufils.github.io/presentations/developers-journey-podcast-16/</link>
+      <pubDate>Tue, 07 Jun 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://damienbeaufils.github.io/presentations/developers-journey-podcast-16/</guid>
+      <description>« In this episode, I talked to Damien Beaufils, a french software craftsman working in Paris. Damien shared the experience he made on his current project ; how he helped his team focus on quality to improve the whole software. We talked about the different kind of tests, the test pyramid and Damien even shared a very good recipe on how to improve test quality in a legacy or project lacking tests.</description>
+    </item>
+    
+    <item>
+      <title>Web Services for IAS CoRoT archives</title>
+      <link>https://damienbeaufils.github.io/presentations/web-services-for-ias-corot-archives/</link>
+      <pubDate>Wed, 15 Jun 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://damienbeaufils.github.io/presentations/web-services-for-ias-corot-archives/</guid>
+      <description>IAS is the official archive repository for the CoRoT mission data. In addition of data archiving in a secure way, IAS proposes several interfaces corresponding to different level of data and different kind of users. We present here the recent changes made aiming at improving our interfaces with real added-value services related to the available data. In particular, we provide a set of web services which permit to give access to additional informations on a given target such as online lightcurve plotting or periodogram computing and plotting.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -13,7 +13,7 @@
     ]
   },
   {
-    "grouping": "Backend",
+    "grouping": "Java-ish technologies",
     "skills": [
       "Java 8+",
       "Spring (Core, MVC, Boot)",
@@ -25,7 +25,7 @@
     ]
   },
   {
-    "grouping": "Frontend",
+    "grouping": "JavaScript-ish technologies",
     "skills": [
       "JavaScript",
       "TypeScript",

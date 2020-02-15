@@ -8,6 +8,6 @@ sitemap:
 
 I am a passionate developer for more than 13 years. Convinced that a working software is good but not enough, I work with my clients mainly as a Tech Lead in agile projects to build well-crafted softwares. I have worked as a Tech Lead for high stakes projects such as government websites or international sports tournaments websites.
 
-I also like to share my knowledge and therefore I am a trainer on software development practices such as Test Driven Development, and I regularly present talks in meetups or in conferences such as Devoxx France. 
+I also like to share my knowledge and therefore I am a trainer on software development practices such as [Test Driven Development](https://en.wikipedia.org/wiki/Test-driven_development), and I regularly present talks in meetups or in conferences such as [Devoxx France](https://www.devoxx.fr/). 
 
-Finally, I am co-organizer of the Software Crafters Montreal meetup and co-founder of the SoCraTes Canada conference.
+Finally, I am co-organizer of the [Software Crafters Montreal meetup](https://www.meetup.com/Software-Crafters-Montreal/) and co-founder of the [SoCraTes Canada conference](http://socrates-ca.github.io/).

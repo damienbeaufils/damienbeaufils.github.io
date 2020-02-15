@@ -30,7 +30,7 @@ enableGitInfo = true
     contactNote = "Software Crafter"
     address = "Montréal, QC, Canada"
     email = "damien.beaufils@zenika.com"
-    description = "Damien Beaufils, Software Developer, Software Crafter, Senior Consultant, Trainer"
+    description = "Damien Beaufils · Software Developer, Software Crafter, Senior Consultant, Trainer · Montréal, QC, Canada"
     # favicon = "images/favicon.ico"
     # what sections
     showSkills = true
@@ -66,6 +66,10 @@ enableGitInfo = true
 [[params.handles]]
     name = "Speaker-Deck"
     link = "https://speakerdeck.com/damienbeaufils"
+
+[[params.handles]]
+    name = "Meetup"
+    link = "https://www.meetup.com/members/127576092"
 
 [[params.handles]]
     name = "500px"

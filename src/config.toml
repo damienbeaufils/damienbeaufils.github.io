@@ -16,8 +16,6 @@ enableGitInfo = true
     style = "tango"
 
 
-
-
 [taxonomies]
     tag = "tags"
 
@@ -40,7 +38,7 @@ enableGitInfo = true
     # publicationsAlternateName = "Presentations"
     showExperience = true
     showEducation = true
-    showBlog      = false
+    showBlog      = true
     showQr = false
 
     # do you want to show git hash on page footer and link to repo? Add commit prefix here.
@@ -75,9 +73,8 @@ enableGitInfo = true
     name = "500px"
     link = "https://500px.com/damienbeaufils"
 
-[permalinks]
-  publications = "/presentations/:title/"
-
+#[permalinks]
+#  publications = "/publications/:title/"
 
 
 [params.google.analytics]

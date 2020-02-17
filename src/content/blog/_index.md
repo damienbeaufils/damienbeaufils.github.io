@@ -3,4 +3,4 @@ title: "Blog"
 sitemap:
   priority : 0.9
 ---
-Nothing here! (yet!)
+This section contains articles migrated from my old Wordpress site.

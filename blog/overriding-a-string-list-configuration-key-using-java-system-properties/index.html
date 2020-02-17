@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Damien Beaufils | Overriding a String List configuration key using Java System properties</title>
+  <meta property="og:title" content="Damien Beaufils | Overriding a String List configuration key using Java System properties" />
+  <meta property="og:image" content="https://damienbeaufils.github.io/img/damienbeaufils.jpg" />
+  <meta name="description" content="">
+  <meta property="og:description" content="" />
+  <meta name="author" content="Damien Beaufils">
+  
+  <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css"></noscript>
+  
+  <link rel="preload" href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:100,200,300,400,500,600,700,800,900&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:100,200,300,400,500,600,700,800,900&display=swap"></noscript>
+  <link rel="preload" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+      <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&display=swap"></noscript>
+  <link rel="preload" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css"></noscript>
+  <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/devicons/1.8.0/css/devicons.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/devicons/1.8.0/css/devicons.min.css"></noscript>
+  <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.min.css"></noscript>
+  
+  <link rel="preload" href="https://damienbeaufils.github.io/css/resume.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://damienbeaufils.github.io/css/resume.css"></noscript>
+  <link rel="preload" href="https://damienbeaufils.github.io/css/tweaks.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://damienbeaufils.github.io/css/tweaks.css"></noscript>
+  <link rel="preload" href="https://damienbeaufils.github.io/css/resume-override.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://damienbeaufils.github.io/css/resume-override.css"></noscript>
+  <meta name="generator" content="Hugo 0.64.1" />
+  
+   
+  
+</head>
+<body id="page-top">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+  <a class="navbar-brand js-scroll-trigger" href="#page-top">
+    <span class="d-block d-lg-none">Damien Beaufils</span>
+    <span class="d-none d-lg-block">
+      <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="/img/damienbeaufils.jpg" alt="">
+    </span>
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link js-scroll-trigger" href="/#about">About</a>
+      </li>
+      
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="/#skills">Skills</a>
+          </li>
+      
+      
+      
+      
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="/#Publications">Publications</a>
+          </li>
+      
+      
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="/#experience">Experience</a>
+          </li>
+      
+      
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="/#education">Education</a>
+          </li>
+      
+      
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="/#blog">Blog</a>
+          </li>
+      
+    </ul>
+  </div>
+</nav>
+
+  <div class="container-fluid p-0">
+    
+<nav aria-label="breadcrumb">
+  <ol  class="breadcrumb">
+    
+
+
+
+
+
+<li class="breadcrumb-item">
+  <a href="https://damienbeaufils.github.io/">Home</a>
+</li>
+
+
+<li class="breadcrumb-item">
+  <a href="https://damienbeaufils.github.io/blog/">Blog</a>
+</li>
+
+
+<li class="breadcrumb-item active">
+  <a href="https://damienbeaufils.github.io/blog/overriding-a-string-list-configuration-key-using-java-system-properties/">Overriding a String List configuration key using Java System properties</a>
+</li>
+
+  </ol>
+</nav>
+
+
+
+
+<section class="resume-section p-3 p-lg-5 d-flex d-column">
+  <div class="my-auto">
+    <h2 class="mb-0"><span class="text-primary">Overriding a String List configuration key using Java System properties</span></h2>
+    <span class="text-primary">February 2, 2016</span>
+    <p>With Play Framework, you can <a href="https://www.playframework.com/documentation/2.4.x/ProductionConfiguration#Overriding-configuration-with-system-properties">override configuration keys by specifying them as Java System properties</a>. Example:</p>
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">activator run -Dsome.key=&#34;some.value&#34;
+</code></pre></div><p>But if you have a String List key, you cannot override it like in the configuration file. Example using the trusted proxies configuration:</p>
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">activator run -Dplay.http.forwarded.trustedProxies=\[&#34;127.0.0.0/8&#34;,&#34;10.0.0.0/8&#34;\]
+</code></pre></div><p>You will have this runtime error:</p>
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">Configuration error\[system properties: play.http.forwarded.trustedProxies has type STRING rather than LIST\]
+</code></pre></div><p>To avoid this, you have to specify each entry of the list using the entry index:</p>
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">activator run -Dplay.http.forwarded.trustedProxies.0=127.0.0.0/8 -Dplay.http.forwarded.trustedProxies.1=10.0.0.0/8
+</code></pre></div><p>Note that there are no double quotes around the values. I encountered some issues when using quotes, and it works fine without them.</p>
+
+    
+    <ul class="tags">
+    
+      <li><a class="tag" href="/tags/play">Play</a></li>
+    
+      <li><a class="tag" href="/tags/sbt">sbt</a></li>
+    
+      <li><a class="tag" href="/tags/configuration">configuration</a></li>
+    
+      <li><a class="tag" href="/tags/bash">bash</a></li>
+    
+</ul>
+
+  </div>
+</section>
+
+
+    <span style="color: #999999; font-size: 60%;">Nifty <a href="https://codepen.io/wbeeftink/pen/dIaDH">tech tag lists</a> from <a class="pen-owner-link" href="https://codepen.io/wbeeftink">Wouter Beeftink</a> </span>
+     | <span style="color: #999999; font-size: 60%;">Page content generated from commit: <a href="https://github.com/damienbeaufils/damienbeaufils.github.io/commit//fd23f50" title="log: ✨ add blog posts from old Wordpress site">fd23f50</a>
+  </div>
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script async src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.bundle.min.js"></script>
+
+  
+  <script async src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+  
+  <script async src="/js/resume.js"></script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-158255875-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-158255875-1');
+  </script>
+  
+
+  
+</body>
+</html>

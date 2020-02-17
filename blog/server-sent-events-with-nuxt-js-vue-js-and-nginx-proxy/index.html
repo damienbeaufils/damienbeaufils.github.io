@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Damien Beaufils | Server-Sent Events with Nuxt.js (Vue.js) and Nginx proxy</title>
+  <meta property="og:title" content="Damien Beaufils | Server-Sent Events with Nuxt.js (Vue.js) and Nginx proxy" />
+  <meta property="og:image" content="https://damienbeaufils.github.io/img/damienbeaufils.jpg" />
+  <meta name="description" content="">
+  <meta property="og:description" content="" />
+  <meta name="author" content="Damien Beaufils">
+  
+  <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css"></noscript>
+  
+  <link rel="preload" href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:100,200,300,400,500,600,700,800,900&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:100,200,300,400,500,600,700,800,900&display=swap"></noscript>
+  <link rel="preload" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+      <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&display=swap"></noscript>
+  <link rel="preload" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css"></noscript>
+  <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/devicons/1.8.0/css/devicons.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/devicons/1.8.0/css/devicons.min.css"></noscript>
+  <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.min.css"></noscript>
+  
+  <link rel="preload" href="https://damienbeaufils.github.io/css/resume.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://damienbeaufils.github.io/css/resume.css"></noscript>
+  <link rel="preload" href="https://damienbeaufils.github.io/css/tweaks.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://damienbeaufils.github.io/css/tweaks.css"></noscript>
+  <link rel="preload" href="https://damienbeaufils.github.io/css/resume-override.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://damienbeaufils.github.io/css/resume-override.css"></noscript>
+  <meta name="generator" content="Hugo 0.64.1" />
+  
+   
+  
+</head>
+<body id="page-top">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+  <a class="navbar-brand js-scroll-trigger" href="#page-top">
+    <span class="d-block d-lg-none">Damien Beaufils</span>
+    <span class="d-none d-lg-block">
+      <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="/img/damienbeaufils.jpg" alt="">
+    </span>
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link js-scroll-trigger" href="/#about">About</a>
+      </li>
+      
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="/#skills">Skills</a>
+          </li>
+      
+      
+      
+      
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="/#Publications">Publications</a>
+          </li>
+      
+      
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="/#experience">Experience</a>
+          </li>
+      
+      
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="/#education">Education</a>
+          </li>
+      
+      
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="/#blog">Blog</a>
+          </li>
+      
+    </ul>
+  </div>
+</nav>
+
+  <div class="container-fluid p-0">
+    
+<nav aria-label="breadcrumb">
+  <ol  class="breadcrumb">
+    
+
+
+
+
+
+<li class="breadcrumb-item">
+  <a href="https://damienbeaufils.github.io/">Home</a>
+</li>
+
+
+<li class="breadcrumb-item">
+  <a href="https://damienbeaufils.github.io/blog/">Blog</a>
+</li>
+
+
+<li class="breadcrumb-item active">
+  <a href="https://damienbeaufils.github.io/blog/server-sent-events-with-nuxt-js-vue-js-and-nginx-proxy/">Server-Sent Events with Nuxt.js (Vue.js) and Nginx proxy</a>
+</li>
+
+  </ol>
+</nav>
+
+
+
+
+<section class="resume-section p-3 p-lg-5 d-flex d-column">
+  <div class="my-auto">
+    <h2 class="mb-0"><span class="text-primary">Server-Sent Events with Nuxt.js (Vue.js) and Nginx proxy</span></h2>
+    <span class="text-primary">November 30, 2017</span>
+    <p>Suppose you have a Nuxt.js (Vue.js) application which calls a backend and which is behind a Nginx reverse proxy. If your backend stream Server-Sent Events (SSE) using <code>text/event-stream</code> content-type, you may have these errors: <code>504 (Gateway Time-out)</code> or <code>ERR_INCOMPLETE_CHUNKED_ENCODING</code> (in Chrome).</p>
+<p>If you want to make SSE works with your Nuxt.js application which is behind a Nginx reverse proxy, you have to do 2 things :</p>
+<h3 id="enable-long-running-connections-in-nginx">Enable long running connections in Nginx</h3>
+<p>Add these lines in your Nginx configuration:</p>
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">proxy_http_version 1.1;
+proxy_set_header Connection &#34;&#34;;
+</code></pre></div><p>And don&rsquo;t forget to add the <code>X-Accel-Buffering: no;</code> header in the stream response sent by your backend. Full explanation in this answer: <a href="https://serverfault.com/a/801629">https://serverfault.com/a/801629</a></p>
+<h3 id="disable-gzip-compression-in-nuxt">Disable gzip compression in Nuxt</h3>
+<p>Because compression does not work well with event streams. Add these lines in your <code>nuxt.config.js</code> configuration file:</p>
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">render: {
+  gzip: false
+}
+</code></pre></div><p>More configuration available here: <a href="https://nuxtjs.org/api/configuration-render">https://nuxtjs.org/api/configuration-render</a></p>
+<p><em>That&rsquo;s all folks!</em></p>
+
+    
+    <ul class="tags">
+    
+      <li><a class="tag" href="/tags/sse">SSE</a></li>
+    
+      <li><a class="tag" href="/tags/nuxt.js">Nuxt.js</a></li>
+    
+      <li><a class="tag" href="/tags/vue.js">Vue.js</a></li>
+    
+      <li><a class="tag" href="/tags/node">node</a></li>
+    
+      <li><a class="tag" href="/tags/nginx">Nginx</a></li>
+    
+      <li><a class="tag" href="/tags/event-stream">event stream</a></li>
+    
+</ul>
+
+  </div>
+</section>
+
+
+    <span style="color: #999999; font-size: 60%;">Nifty <a href="https://codepen.io/wbeeftink/pen/dIaDH">tech tag lists</a> from <a class="pen-owner-link" href="https://codepen.io/wbeeftink">Wouter Beeftink</a> </span>
+     | <span style="color: #999999; font-size: 60%;">Page content generated from commit: <a href="https://github.com/damienbeaufils/damienbeaufils.github.io/commit//fd23f50" title="log: ✨ add blog posts from old Wordpress site">fd23f50</a>
+  </div>
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script async src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.bundle.min.js"></script>
+
+  
+  <script async src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+  
+  <script async src="/js/resume.js"></script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-158255875-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-158255875-1');
+  </script>
+  
+
+  
+</body>
+</html>

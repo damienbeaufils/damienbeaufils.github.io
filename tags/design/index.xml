@@ -13,10 +13,10 @@
     
     <item>
       <title>To DRY or not to DRY?</title>
-      <link>https://damienbeaufils.github.io/presentations/to-dry-or-not-to-dry/</link>
+      <link>https://damienbeaufils.github.io/publications/to-dry-or-not-to-dry/</link>
       <pubDate>Tue, 13 Nov 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://damienbeaufils.github.io/presentations/to-dry-or-not-to-dry/</guid>
+      <guid>https://damienbeaufils.github.io/publications/to-dry-or-not-to-dry/</guid>
       <description>You hear it since you started programming: you have to remove, remove and remove code duplication!
 Why? If you have ever worked with a legacy project, when there was code duplication, the same bug in the code had to be corrected in several places, which drove you crazy. And I don’t even talk about introducing new features.
 Even quality tools like SonarQube tells you about code duplication percentage, with a heavy hint: if you have duplication, it’s bad.</description>

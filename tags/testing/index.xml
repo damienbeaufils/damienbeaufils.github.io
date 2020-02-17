@@ -12,11 +12,11 @@
     
     
     <item>
-      <title>Developer&#39;s Journey podcast 16</title>
-      <link>https://damienbeaufils.github.io/presentations/developers-journey-podcast-16/</link>
+      <title>Developer&#39;s Journey podcast #16</title>
+      <link>https://damienbeaufils.github.io/publications/developer-s-journey-podcast-16/</link>
       <pubDate>Tue, 07 Jun 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://damienbeaufils.github.io/presentations/developers-journey-podcast-16/</guid>
+      <guid>https://damienbeaufils.github.io/publications/developer-s-journey-podcast-16/</guid>
       <description>« In this episode, I talked to Damien Beaufils, a french software craftsman working in Paris. Damien shared the experience he made on his current project ; how he helped his team focus on quality to improve the whole software. We talked about the different kind of tests, the test pyramid and Damien even shared a very good recipe on how to improve test quality in a legacy or project lacking tests.</description>
     </item>
     

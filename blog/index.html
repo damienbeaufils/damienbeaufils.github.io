@@ -74,6 +74,10 @@
           </li>
       
       
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="/#blog">Blog</a>
+          </li>
+      
     </ul>
   </div>
 </nav>
@@ -104,8 +108,162 @@
 <section class="resume-section p-3 p-lg-5 d-flex flex-column">
   <div class="my-auto" id="projects-content">
     <h1 id="blog">Blog</h1>
-    <p><p>Nothing here! (yet!)</p>
+    <p><p>This section contains articles migrated from my old Wordpress site.</p>
 </p>
+    
+        
+<div class="resume-item d-flex flex-column flex-md-row mb-5">
+  <div class="publication-content mr-auto">
+    <h3 class="mb-0"><a href="https://damienbeaufils.github.io/blog/server-sent-events-with-nuxt-js-vue-js-and-nginx-proxy/">Server-Sent Events with Nuxt.js (Vue.js) and Nginx proxy</a></h3>
+    <div>Suppose you have a Nuxt.js (Vue.js) application which calls a backend and which is behind a Nginx reverse proxy. If your backend stream Server-Sent Events (SSE) using text/event-stream content-type, you may have these errors: 504 (Gateway Time-out) or ERR_INCOMPLETE_CHUNKED_ENCODING (in Chrome).
+If you want to make SSE works with your Nuxt.js application which is behind a Nginx reverse proxy, you have to do 2 things :
+Enable long running connections in Nginx Add these lines in your Nginx configuration:</div>
+    <p><ul class="tags">
+    
+      <li><a class="tag" href="/tags/sse">SSE</a></li>
+    
+      <li><a class="tag" href="/tags/nuxt.js">Nuxt.js</a></li>
+    
+      <li><a class="tag" href="/tags/vue.js">Vue.js</a></li>
+    
+      <li><a class="tag" href="/tags/node">node</a></li>
+    
+      <li><a class="tag" href="/tags/nginx">Nginx</a></li>
+    
+      <li><a class="tag" href="/tags/event-stream">event stream</a></li>
+    
+</ul>
+</p>
+  </div>
+  <div class="resume-date text-md-right">
+    <span class="text-primary">November 30, 2017</span>
+    <img src="" style="max-width:250px;padding:5px;"/>
+  </div>
+</div>
+
+    
+        
+<div class="resume-item d-flex flex-column flex-md-row mb-5">
+  <div class="publication-content mr-auto">
+    <h3 class="mb-0"><a href="https://damienbeaufils.github.io/blog/docker-in-jenkins-in-docker/">Docker in Jenkins in Docker</a></h3>
+    <div>You mad?
+Really, you should not do this.
+If you&rsquo;re still here and want to do this, check this GitHub repository: https://github.com/damienbeaufils/docker-in-jenkins-in-docker
+You&rsquo;ve been warned.</div>
+    <p><ul class="tags">
+    
+      <li><a class="tag" href="/tags/docker">Docker</a></li>
+    
+      <li><a class="tag" href="/tags/jenkins">Jenkins</a></li>
+    
+</ul>
+</p>
+  </div>
+  <div class="resume-date text-md-right">
+    <span class="text-primary">October 26, 2017</span>
+    <img src="" style="max-width:250px;padding:5px;"/>
+  </div>
+</div>
+
+    
+        
+<div class="resume-item d-flex flex-column flex-md-row mb-5">
+  <div class="publication-content mr-auto">
+    <h3 class="mb-0"><a href="https://damienbeaufils.github.io/blog/how-to-properly-encrypt-data-using-jpa-converters-and-spring-data-jpa/">How to properly encrypt data using JPA converters and Spring Data JPA</a></h3>
+    <div>TL;DR: all code is directly available on GitHub: https://github.com/damienbeaufils/spring-data-jpa-encryption-example
+Each time I want to encrypt entity fields values with JPA converters, I end up reading this blog post. This example is clear and functional, but has no unit or integration tests, and I thought the code could be more decoupled to avoid duplication when having multiple converters.
+So I wrote an example using Spring Boot and Spring Data JPA, with a User entity which have different fields: id (a Long), firstName (a String), lastName (a String), email (a String), birthDate (a LocalDate) and creationDate (a LocalDateTime).</div>
+    <p><ul class="tags">
+    
+      <li><a class="tag" href="/tags/java">Java</a></li>
+    
+      <li><a class="tag" href="/tags/spring-data-jpa">Spring Data JPA</a></li>
+    
+      <li><a class="tag" href="/tags/spring-boot">Spring Boot</a></li>
+    
+      <li><a class="tag" href="/tags/encryption">encryption</a></li>
+    
+      <li><a class="tag" href="/tags/converter">converter</a></li>
+    
+      <li><a class="tag" href="/tags/unit-testing">unit testing</a></li>
+    
+      <li><a class="tag" href="/tags/integration-testing">integration testing</a></li>
+    
+</ul>
+</p>
+  </div>
+  <div class="resume-date text-md-right">
+    <span class="text-primary">July 21, 2017</span>
+    <img src="" style="max-width:250px;padding:5px;"/>
+  </div>
+</div>
+
+    
+        
+<div class="resume-item d-flex flex-column flex-md-row mb-5">
+  <div class="publication-content mr-auto">
+    <h3 class="mb-0"><a href="https://damienbeaufils.github.io/blog/overriding-a-string-list-configuration-key-using-java-system-properties/">Overriding a String List configuration key using Java System properties</a></h3>
+    <div>With Play Framework, you can override configuration keys by specifying them as Java System properties. Example:
+activator run -Dsome.key=&#34;some.value&#34; But if you have a String List key, you cannot override it like in the configuration file. Example using the trusted proxies configuration:
+activator run -Dplay.http.forwarded.trustedProxies=\[&#34;127.0.0.0/8&#34;,&#34;10.0.0.0/8&#34;\] You will have this runtime error:
+Configuration error\[system properties: play.http.forwarded.trustedProxies has type STRING rather than LIST\] To avoid this, you have to specify each entry of the list using the entry index:</div>
+    <p><ul class="tags">
+    
+      <li><a class="tag" href="/tags/play">Play</a></li>
+    
+      <li><a class="tag" href="/tags/sbt">sbt</a></li>
+    
+      <li><a class="tag" href="/tags/configuration">configuration</a></li>
+    
+      <li><a class="tag" href="/tags/bash">bash</a></li>
+    
+</ul>
+</p>
+  </div>
+  <div class="resume-date text-md-right">
+    <span class="text-primary">February 2, 2016</span>
+    <img src="" style="max-width:250px;padding:5px;"/>
+  </div>
+</div>
+
+    
+        
+<div class="resume-item d-flex flex-column flex-md-row mb-5">
+  <div class="publication-content mr-auto">
+    <h3 class="mb-0"><a href="https://damienbeaufils.github.io/blog/implementing-a-soap-client-with-cxf-using-play-framework-2-x/">Implementing a SOAP client with CXF using Play Framework 2.x</a></h3>
+    <div>TL;DR: if you want to skip the tutorial, all code is directly available on GitHub: https://github.com/damienbeaufils/soap-client-with-cxf-using-play
+EDIT June 2016: code on my GitHub repository updated for Play Framework 2.5! Play 2.4 version is still available here.
+I was working on a new client product, and I had to plug a web application built with Play Framework (and then sbt) to SOAP web services. How to do it?
+The need: be able to generate Java classes from one or many WSDL files, and use those classes with Play 2.</div>
+    <p><ul class="tags">
+    
+      <li><a class="tag" href="/tags/java">Java</a></li>
+    
+      <li><a class="tag" href="/tags/play">Play</a></li>
+    
+      <li><a class="tag" href="/tags/sbt">sbt</a></li>
+    
+      <li><a class="tag" href="/tags/soap">SOAP</a></li>
+    
+      <li><a class="tag" href="/tags/cxf">CXF</a></li>
+    
+      <li><a class="tag" href="/tags/wsdl">WSDL</a></li>
+    
+      <li><a class="tag" href="/tags/guice">Guice</a></li>
+    
+      <li><a class="tag" href="/tags/wsdl2java">wsdl2java</a></li>
+    
+      <li><a class="tag" href="/tags/spring">Spring</a></li>
+    
+</ul>
+</p>
+  </div>
+  <div class="resume-date text-md-right">
+    <span class="text-primary">December 21, 2015</span>
+    <img src="" style="max-width:250px;padding:5px;"/>
+  </div>
+</div>
+
     
     
   </div>
@@ -113,7 +271,7 @@
 
 
     <span style="color: #999999; font-size: 60%;">Nifty <a href="https://codepen.io/wbeeftink/pen/dIaDH">tech tag lists</a> from <a class="pen-owner-link" href="https://codepen.io/wbeeftink">Wouter Beeftink</a> </span>
-     | <span style="color: #999999; font-size: 60%;">Page content generated from commit: <a href="https://github.com/damienbeaufils/damienbeaufils.github.io/commit//42027b1" title="log: 🎉 Initial commit with first website version">42027b1</a>
+     | <span style="color: #999999; font-size: 60%;">Page content generated from commit: <a href="https://github.com/damienbeaufils/damienbeaufils.github.io/commit//fd23f50" title="log: ✨ add blog posts from old Wordpress site">fd23f50</a>
   </div>
   
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>

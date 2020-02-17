@@ -74,6 +74,10 @@
           </li>
       
       
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="/#blog">Blog</a>
+          </li>
+      
     </ul>
   </div>
 </nav>
@@ -100,9 +104,20 @@
         </div>
         <div>
           <p><strong>Software Crafter, currently senior consultant &amp; co-CTO @ <a href="https://www.zenika.ca">Zenika Montréal</a></strong></p>
-<p>I am a passionate developer for more than 13 years. Convinced that a working software is good but not enough, I work with my clients mainly as a Tech Lead in agile projects to build well-crafted softwares. I have worked as a Tech Lead for high stakes projects such as government websites or international sports tournaments websites.</p>
-<p>I also like to share my knowledge and therefore I am a trainer on software development practices such as <a href="https://en.wikipedia.org/wiki/Test-driven_development">Test Driven Development</a>, and I regularly present talks in meetups or in conferences such as <a href="https://www.devoxx.fr/">Devoxx France</a>.</p>
-<p>Finally, I am co-organizer of the <a href="https://www.meetup.com/Software-Crafters-Montreal/">Software Crafters Montreal meetup</a> and co-founder of the <a href="http://socrates-ca.github.io/">SoCraTes Canada conference</a>.</p>
+<p>I am a passionate developer for more than 13 years. Convinced that working software is good but not enough, I work with my clients mainly as a Tech Lead in agile projects to build well-crafted software. I have worked as a Tech Lead for high stakes projects such as government websites or international sports tournaments websites.</p>
+<p>I also like to share my knowledge and therefore I am a trainer on software development practices such as <a href="https://en.wikipedia.org/wiki/Test-driven_development">Test Driven Development</a>, and I regularly present talks in meetups or conferences such as <a href="https://www.devoxx.fr/">Devoxx France</a>.</p>
+<p>Finally, I am a co-organizer of the <a href="https://www.meetup.com/Software-Crafters-Montreal/">Software Crafters Montreal meetup</a> and co-founder of the <a href="http://socrates-ca.github.io/">SoCraTes Canada conference</a>.</p>
+<p>I can help you if you have one of these symptoms:</p>
+<ul>
+<li>Difficulties to add new features to an existing legacy codebase</li>
+<li>More time spent to fix bugs than to add new features</li>
+<li>No clear definition of what clean code or software quality are</li>
+<li>Not sure how to write good automated tests and which kind of tests you should write</li>
+<li>Too much technical debt</li>
+<li>Having still the same issues even when working on a codebase started less than 1 year ago</li>
+<li>Willing to create a well-crafted software that you won&rsquo;t throw away in 3 years</li>
+</ul>
+<p>Feel free to contact me using any channel below:</p>
 
           <ul class="list-inline list-social-icons mb-0">
             
@@ -422,7 +437,7 @@
       
 <div class="resume-item d-flex flex-column flex-md-row mb-5">
   <div class="publication-content mr-auto">
-    <h3 class="mb-0">Article - <a href="https://damienbeaufils.github.io/presentations/to-dry-or-not-to-dry/">To DRY or not to DRY?</a></h3>
+    <h3 class="mb-0">Article - <a href="https://damienbeaufils.github.io/publications/to-dry-or-not-to-dry/">To DRY or not to DRY?</a></h3>
     <div>A blog post about DRY (Don't Repeat Yourself) principle and when not to apply it.</div>
     <p><ul class="tags">
     
@@ -443,7 +458,7 @@
       
 <div class="resume-item d-flex flex-column flex-md-row mb-5">
   <div class="publication-content mr-auto">
-    <h3 class="mb-0">Podcast - <a href="https://damienbeaufils.github.io/presentations/caf%C3%A9-craft-podcast-15-renverser-la-pyramide-des-tests/">Café Craft podcast 15 : Renverser la pyramide des tests !</a></h3>
+    <h3 class="mb-0">Podcast - <a href="https://damienbeaufils.github.io/publications/cafe-craft-podcast-15-renverser-la-pyramide-des-tests/">Café Craft podcast #15 : Renverser la pyramide des tests !</a></h3>
     <div>A podcast where I have been interviewed to talk about the Test Pyramid model.</div>
     <p><ul class="tags">
     
@@ -466,7 +481,7 @@
       
 <div class="resume-item d-flex flex-column flex-md-row mb-5">
   <div class="publication-content mr-auto">
-    <h3 class="mb-0">Talk - <a href="https://damienbeaufils.github.io/presentations/comment-%C3%AAtre-tech-lead-dans-une-pizza-team-xxl-sans-finir-sous-leau/">Comment être Tech Lead dans une pizza team XXL sans finir sous l&#39;eau ?</a></h3>
+    <h3 class="mb-0">Talk - <a href="https://damienbeaufils.github.io/publications/comment-etre-tech-lead-dans-une-pizza-team-xxl-sans-finir-sous-l-eau/">Comment être Tech Lead dans une pizza team XXL sans finir sous l&#39;eau ?</a></h3>
     <div>A talk I gave during Devoxx France 2017 about the Tech Lead role and about the Software Craftsmanship practices in a software development team.</div>
     <p><ul class="tags">
     
@@ -645,10 +660,135 @@
 
    
    
+      
+         
+         <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="blog">
+  <div class="my-auto" id="projects-content">
+    <div class=" pb-2 pt-3">
+      <h2><a href="https://damienbeaufils.github.io/blog/">Blog</a></h2>
+      <p class="lead">This section contains articles migrated from my old Wordpress site.</p>
+      
+    </div>
+  
+    
+    
+      
+<div class="resume-item d-flex flex-column flex-md-row mb-5">
+  <div class="publication-content mr-auto">
+    <h3 class="mb-0"><a href="https://damienbeaufils.github.io/blog/server-sent-events-with-nuxt-js-vue-js-and-nginx-proxy/">Server-Sent Events with Nuxt.js (Vue.js) and Nginx proxy</a></h3>
+    <div>Suppose you have a Nuxt.js (Vue.js) application which calls a backend and which is behind a Nginx reverse proxy. If your backend stream Server-Sent Events (SSE) using text/event-stream content-type, you may have these errors: 504 (Gateway Time-out) or ERR_INCOMPLETE_CHUNKED_ENCODING (in Chrome).
+If you want to make SSE works with your Nuxt.js application which is behind a Nginx reverse proxy, you have to do 2 things :
+Enable long running connections in Nginx Add these lines in your Nginx configuration:</div>
+    <p><ul class="tags">
+    
+      <li><a class="tag" href="/tags/sse">SSE</a></li>
+    
+      <li><a class="tag" href="/tags/nuxt.js">Nuxt.js</a></li>
+    
+      <li><a class="tag" href="/tags/vue.js">Vue.js</a></li>
+    
+      <li><a class="tag" href="/tags/node">node</a></li>
+    
+      <li><a class="tag" href="/tags/nginx">Nginx</a></li>
+    
+      <li><a class="tag" href="/tags/event-stream">event stream</a></li>
+    
+</ul>
+</p>
+  </div>
+  <div class="resume-date text-md-right">
+    <span class="text-primary">November 30, 2017</span>
+    <img src="" style="max-width:250px;padding:5px;"/>
+  </div>
+</div>
+
+    
+      
+<div class="resume-item d-flex flex-column flex-md-row mb-5">
+  <div class="publication-content mr-auto">
+    <h3 class="mb-0"><a href="https://damienbeaufils.github.io/blog/how-to-properly-encrypt-data-using-jpa-converters-and-spring-data-jpa/">How to properly encrypt data using JPA converters and Spring Data JPA</a></h3>
+    <div>TL;DR: all code is directly available on GitHub: https://github.com/damienbeaufils/spring-data-jpa-encryption-example
+Each time I want to encrypt entity fields values with JPA converters, I end up reading this blog post. This example is clear and functional, but has no unit or integration tests, and I thought the code could be more decoupled to avoid duplication when having multiple converters.
+So I wrote an example using Spring Boot and Spring Data JPA, with a User entity which have different fields: id (a Long), firstName (a String), lastName (a String), email (a String), birthDate (a LocalDate) and creationDate (a LocalDateTime).</div>
+    <p><ul class="tags">
+    
+      <li><a class="tag" href="/tags/java">Java</a></li>
+    
+      <li><a class="tag" href="/tags/spring-data-jpa">Spring Data JPA</a></li>
+    
+      <li><a class="tag" href="/tags/spring-boot">Spring Boot</a></li>
+    
+      <li><a class="tag" href="/tags/encryption">encryption</a></li>
+    
+      <li><a class="tag" href="/tags/converter">converter</a></li>
+    
+      <li><a class="tag" href="/tags/unit-testing">unit testing</a></li>
+    
+      <li><a class="tag" href="/tags/integration-testing">integration testing</a></li>
+    
+</ul>
+</p>
+  </div>
+  <div class="resume-date text-md-right">
+    <span class="text-primary">July 21, 2017</span>
+    <img src="" style="max-width:250px;padding:5px;"/>
+  </div>
+</div>
+
+    
+      
+<div class="resume-item d-flex flex-column flex-md-row mb-5">
+  <div class="publication-content mr-auto">
+    <h3 class="mb-0"><a href="https://damienbeaufils.github.io/blog/implementing-a-soap-client-with-cxf-using-play-framework-2-x/">Implementing a SOAP client with CXF using Play Framework 2.x</a></h3>
+    <div>TL;DR: if you want to skip the tutorial, all code is directly available on GitHub: https://github.com/damienbeaufils/soap-client-with-cxf-using-play
+EDIT June 2016: code on my GitHub repository updated for Play Framework 2.5! Play 2.4 version is still available here.
+I was working on a new client product, and I had to plug a web application built with Play Framework (and then sbt) to SOAP web services. How to do it?
+The need: be able to generate Java classes from one or many WSDL files, and use those classes with Play 2.</div>
+    <p><ul class="tags">
+    
+      <li><a class="tag" href="/tags/java">Java</a></li>
+    
+      <li><a class="tag" href="/tags/play">Play</a></li>
+    
+      <li><a class="tag" href="/tags/sbt">sbt</a></li>
+    
+      <li><a class="tag" href="/tags/soap">SOAP</a></li>
+    
+      <li><a class="tag" href="/tags/cxf">CXF</a></li>
+    
+      <li><a class="tag" href="/tags/wsdl">WSDL</a></li>
+    
+      <li><a class="tag" href="/tags/guice">Guice</a></li>
+    
+      <li><a class="tag" href="/tags/wsdl2java">wsdl2java</a></li>
+    
+      <li><a class="tag" href="/tags/spring">Spring</a></li>
+    
+</ul>
+</p>
+  </div>
+  <div class="resume-date text-md-right">
+    <span class="text-primary">December 21, 2015</span>
+    <img src="" style="max-width:250px;padding:5px;"/>
+  </div>
+</div>
+
+    
+  </div>
+  
+    <div class="my-auto">
+      <h3>Wait! There's more..</h3>
+      <p>See <a href="https://damienbeaufils.github.io/blog/">all Blogs</a> for more examples!</p>
+    </div>
+  
+</section>
+
+      
+   
 
 
     <span style="color: #999999; font-size: 60%;">Nifty <a href="https://codepen.io/wbeeftink/pen/dIaDH">tech tag lists</a> from <a class="pen-owner-link" href="https://codepen.io/wbeeftink">Wouter Beeftink</a> </span>
-     | <span style="color: #999999; font-size: 60%;">Page content generated from commit: <a href="https://github.com/damienbeaufils/damienbeaufils.github.io/commit//48e4488" title="log: ✨ add more links and rename skills groups">48e4488</a>
+     | <span style="color: #999999; font-size: 60%;">Page content generated from commit: <a href="https://github.com/damienbeaufils/damienbeaufils.github.io/commit//bfddc79" title="log: ✨ improve homepage">bfddc79</a>
   </div>
   
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>

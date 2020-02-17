@@ -1,5 +1,5 @@
 ---
-title: "Café Craft podcast 15 : Renverser la pyramide des tests !"
+title: "Café Craft podcast #15 : Renverser la pyramide des tests !"
 date: 2018-01-01
 pubtype: "Podcast"
 featured: true

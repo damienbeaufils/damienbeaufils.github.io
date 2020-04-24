@@ -28,7 +28,7 @@ enableGitInfo = true
     contactNote = "Software Crafter"
     address = "Montréal, QC, Canada"
     email = "damien.beaufils@zenika.com"
-    description = "Damien Beaufils · Software Developer, Software Crafter, Senior Consultant, Trainer · Montréal, QC, Canada"
+    description = "I am a passionate developer for more than 13 years. Convinced that working software is good but not enough, I work with my clients mainly as a Tech Lead in agile projects to build well-crafted software."
     # favicon = "images/favicon.ico"
     # what sections
     showSkills = true

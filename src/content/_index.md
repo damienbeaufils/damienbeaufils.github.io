@@ -1,6 +1,6 @@
 ---
-title: "Home"
-date: 2020-02-17T12:00:00-04:00
+title: "Software Developer, Software Crafter, Senior Consultant, Trainer · Montréal, QC, Canada"
+date: 2020-04-24T12:00:00-04:00
 sitemap:
   priority : 1.0
 ---

@@ -1,10 +1,10 @@
 ---
 title: "Software Developer, Software Crafter, Senior Consultant, Trainer · Montréal, QC, Canada"
-date: 2020-04-24T12:00:00-04:00
+date: 2020-07-24T12:00:00-04:00
 sitemap:
   priority : 1.0
 ---
-**Software Crafter, currently senior consultant & co-CTO @ [Zenika Montréal](https://www.zenika.ca)**
+**Software Crafter, currently senior consultant & CTO @ [Zenika Montréal](https://www.zenika.ca)**
 
 I am a passionate developer for more than 13 years. Convinced that working software is good but not enough, I work with my clients mainly as a Tech Lead in agile projects to build well-crafted software. I have worked as a Tech Lead for high stakes projects such as government websites or international sports tournaments websites.
 

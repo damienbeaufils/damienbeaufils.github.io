@@ -70,8 +70,9 @@ enableGitInfo = true
     link = "https://www.meetup.com/members/127576092"
 
 [[params.handles]]
-    name = "500px"
-    link = "https://500px.com/damienbeaufils"
+    icon = "camera"
+    name = "iStock portfolio"
+    link = "https://www.istockphoto.com/portfolio/damienbeaufils"
 
 #[permalinks]
 #  publications = "/publications/:title/"

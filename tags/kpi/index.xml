@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>KPI on Damien Beaufils</title>
+    <link>https://damienbeaufils.github.io/tags/kpi/</link>
+    <description>Recent content in KPI on Damien Beaufils</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-ca</language>
+    <lastBuildDate>Wed, 25 May 2022 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://damienbeaufils.github.io/tags/kpi/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>La couverture de code : un indicateur melon d&#39;eau ?</title>
+      <link>https://damienbeaufils.github.io/publications/la-couverture-de-code-un-indicateur-melon-d-eau/</link>
+      <pubDate>Wed, 25 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://damienbeaufils.github.io/publications/la-couverture-de-code-un-indicateur-melon-d-eau/</guid>
+      <description>Un melon d&amp;rsquo;eau, c&amp;rsquo;est vert à l&amp;rsquo;extérieur et rouge à l&amp;rsquo;intérieur. La couverture de code par les tests, ça peut être la même chose : on a un beau score élevé de couverture, mais on a toujours des défauts déployés régulièrement en production malgré tout.
+En bref, un faux sentiment de sécurité de l&amp;rsquo;extérieur, et quand on creuse, on a à l&amp;rsquo;intérieur des tests automatisés qui ne vérifient pas assez de choses concrètement.</description>
+    </item>
+    
+  </channel>
+</rss>

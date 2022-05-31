@@ -4,68 +4,104 @@
   
   <url>
     <loc>https://damienbeaufils.github.io/projects/creations/</loc>
-    <lastmod>2020-02-17T14:25:43-05:00</lastmod>
+    <lastmod>2020-02-21T11:42:18-05:00</lastmod>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://damienbeaufils.github.io/projects/contributions/</loc>
-    <lastmod>2020-02-17T14:25:43-05:00</lastmod>
+    <lastmod>2020-02-21T11:42:18-05:00</lastmod>
     <priority>0.5</priority>
   </url>
   
   <url>
+    <loc>https://damienbeaufils.github.io/publications/la-couverture-de-code-un-indicateur-melon-d-eau/</loc>
+    <lastmod>2022-05-31T16:45:01-04:00</lastmod>
+    <priority>0.9</priority>
+  </url>
+  
+  <url>
     <loc>https://damienbeaufils.github.io/publications/to-dry-or-not-to-dry/</loc>
-    <lastmod>2020-02-17T14:25:43-05:00</lastmod>
+    <lastmod>2020-02-21T11:42:18-05:00</lastmod>
     <priority>0.9</priority>
   </url>
   
   <url>
     <loc>https://damienbeaufils.github.io/publications/guide-anti-frustration-pour-navigation-en-projet-trouble/</loc>
-    <lastmod>2020-02-17T14:25:43-05:00</lastmod>
+    <lastmod>2020-02-21T11:42:18-05:00</lastmod>
     <priority>0.9</priority>
   </url>
   
   <url>
     <loc>https://damienbeaufils.github.io/publications/cafe-craft-podcast-15-renverser-la-pyramide-des-tests/</loc>
-    <lastmod>2020-02-17T14:25:43-05:00</lastmod>
+    <lastmod>2020-02-21T11:42:18-05:00</lastmod>
     <priority>0.9</priority>
   </url>
   
   <url>
     <loc>https://damienbeaufils.github.io/publications/parole-d-expert-le-role-de-tech-lead-selon-damien-beaufils/</loc>
-    <lastmod>2020-02-17T14:25:43-05:00</lastmod>
+    <lastmod>2020-02-21T11:42:18-05:00</lastmod>
     <priority>0.9</priority>
   </url>
   
   <url>
     <loc>https://damienbeaufils.github.io/publications/comment-etre-tech-lead-dans-une-pizza-team-xxl-sans-finir-sous-l-eau/</loc>
-    <lastmod>2020-02-17T14:25:43-05:00</lastmod>
+    <lastmod>2022-05-31T16:45:01-04:00</lastmod>
     <priority>0.9</priority>
   </url>
   
   <url>
     <loc>https://damienbeaufils.github.io/publications/petit-dejeuner-secteur-public-rex-du-site-service-public-fr-/</loc>
-    <lastmod>2020-02-17T14:25:43-05:00</lastmod>
+    <lastmod>2020-02-21T11:42:18-05:00</lastmod>
     <priority>0.9</priority>
   </url>
   
   <url>
     <loc>https://damienbeaufils.github.io/publications/developpement-artisanal-d-un-logiciel-en-20-iterations/</loc>
-    <lastmod>2020-02-17T14:25:43-05:00</lastmod>
+    <lastmod>2022-05-31T16:45:01-04:00</lastmod>
     <priority>0.9</priority>
   </url>
   
   <url>
     <loc>https://damienbeaufils.github.io/publications/developer-s-journey-podcast-16/</loc>
-    <lastmod>2020-02-17T14:25:43-05:00</lastmod>
+    <lastmod>2020-02-21T11:42:18-05:00</lastmod>
     <priority>0.9</priority>
   </url>
   
   <url>
     <loc>https://damienbeaufils.github.io/publications/web-services-for-ias-corot-archives/</loc>
-    <lastmod>2020-02-17T14:25:43-05:00</lastmod>
+    <lastmod>2020-02-21T11:42:18-05:00</lastmod>
     <priority>0.9</priority>
+  </url>
+  
+  <url>
+    <loc>https://damienbeaufils.github.io/tags/code-coverage/</loc>
+    <lastmod>2022-05-31T16:45:01-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://damienbeaufils.github.io/tags/kpi/</loc>
+    <lastmod>2022-05-31T16:45:01-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://damienbeaufils.github.io/tags/mutation-testing/</loc>
+    <lastmod>2022-05-31T16:45:01-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://damienbeaufils.github.io/tags/software-craftsmanship/</loc>
+    <lastmod>2022-05-31T16:45:01-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://damienbeaufils.github.io/tags/stryker/</loc>
+    <lastmod>2022-05-31T16:45:01-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://damienbeaufils.github.io/tags/</loc>
+    <lastmod>2022-05-31T16:45:01-04:00</lastmod>
   </url>
   
   <url>
@@ -76,245 +112,235 @@
   
   <url>
     <loc>https://damienbeaufils.github.io/search/</loc>
-    <lastmod>2020-02-17T14:25:43-05:00</lastmod>
+    <lastmod>2020-02-21T11:42:18-05:00</lastmod>
     <priority>1</priority>
   </url>
   
   <url>
     <loc>https://damienbeaufils.github.io/tags/design/</loc>
-    <lastmod>2020-02-17T14:25:43-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://damienbeaufils.github.io/tags/software-craftsmanship/</loc>
-    <lastmod>2020-02-17T14:25:43-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://damienbeaufils.github.io/tags/</loc>
-    <lastmod>2020-02-17T14:25:43-05:00</lastmod>
+    <lastmod>2020-02-21T11:42:18-05:00</lastmod>
   </url>
   
   <url>
     <loc>https://damienbeaufils.github.io/tags/mob-programming/</loc>
-    <lastmod>2020-02-17T14:25:43-05:00</lastmod>
+    <lastmod>2020-02-21T11:42:18-05:00</lastmod>
   </url>
   
   <url>
     <loc>https://damienbeaufils.github.io/tags/technical-retrospective/</loc>
-    <lastmod>2020-02-17T14:25:43-05:00</lastmod>
+    <lastmod>2020-02-21T11:42:18-05:00</lastmod>
   </url>
   
   <url>
     <loc>https://damienbeaufils.github.io/tags/tracer-bullet/</loc>
-    <lastmod>2020-02-17T14:25:43-05:00</lastmod>
+    <lastmod>2020-02-21T11:42:18-05:00</lastmod>
   </url>
   
   <url>
     <loc>https://damienbeaufils.github.io/tags/test-driven-development/</loc>
-    <lastmod>2020-02-17T14:25:43-05:00</lastmod>
+    <lastmod>2022-05-31T16:45:01-04:00</lastmod>
   </url>
   
   <url>
     <loc>https://damienbeaufils.github.io/tags/test-pyramid/</loc>
-    <lastmod>2020-02-17T14:25:43-05:00</lastmod>
+    <lastmod>2022-05-31T16:45:01-04:00</lastmod>
   </url>
   
   <url>
     <loc>https://damienbeaufils.github.io/tags/event-stream/</loc>
-    <lastmod>2020-02-17T14:25:43-05:00</lastmod>
+    <lastmod>2020-02-21T11:42:18-05:00</lastmod>
   </url>
   
   <url>
     <loc>https://damienbeaufils.github.io/tags/nginx/</loc>
-    <lastmod>2020-02-17T14:25:43-05:00</lastmod>
+    <lastmod>2020-02-21T11:42:18-05:00</lastmod>
   </url>
   
   <url>
     <loc>https://damienbeaufils.github.io/tags/node/</loc>
-    <lastmod>2020-02-17T14:25:43-05:00</lastmod>
+    <lastmod>2020-02-21T11:42:18-05:00</lastmod>
   </url>
   
   <url>
     <loc>https://damienbeaufils.github.io/tags/nuxt.js/</loc>
-    <lastmod>2020-02-17T14:25:43-05:00</lastmod>
+    <lastmod>2020-02-21T11:42:18-05:00</lastmod>
   </url>
   
   <url>
     <loc>https://damienbeaufils.github.io/blog/server-sent-events-with-nuxt-js-vue-js-and-nginx-proxy/</loc>
-    <lastmod>2020-02-17T14:25:43-05:00</lastmod>
+    <lastmod>2020-02-21T11:42:18-05:00</lastmod>
   </url>
   
   <url>
     <loc>https://damienbeaufils.github.io/tags/sse/</loc>
-    <lastmod>2020-02-17T14:25:43-05:00</lastmod>
+    <lastmod>2020-02-21T11:42:18-05:00</lastmod>
   </url>
   
   <url>
     <loc>https://damienbeaufils.github.io/tags/vue.js/</loc>
-    <lastmod>2020-02-17T14:25:43-05:00</lastmod>
+    <lastmod>2020-02-21T11:42:18-05:00</lastmod>
   </url>
   
   <url>
     <loc>https://damienbeaufils.github.io/tags/tech-lead/</loc>
-    <lastmod>2020-02-17T14:25:43-05:00</lastmod>
+    <lastmod>2022-05-31T16:45:01-04:00</lastmod>
   </url>
   
   <url>
     <loc>https://damienbeaufils.github.io/tags/docker/</loc>
-    <lastmod>2020-02-17T14:25:43-05:00</lastmod>
+    <lastmod>2020-02-21T11:42:18-05:00</lastmod>
   </url>
   
   <url>
     <loc>https://damienbeaufils.github.io/blog/docker-in-jenkins-in-docker/</loc>
-    <lastmod>2020-02-17T14:25:43-05:00</lastmod>
+    <lastmod>2020-02-21T11:42:18-05:00</lastmod>
   </url>
   
   <url>
     <loc>https://damienbeaufils.github.io/tags/jenkins/</loc>
-    <lastmod>2020-02-17T14:25:43-05:00</lastmod>
+    <lastmod>2020-02-21T11:42:18-05:00</lastmod>
   </url>
   
   <url>
     <loc>https://damienbeaufils.github.io/tags/converter/</loc>
-    <lastmod>2020-02-17T14:25:43-05:00</lastmod>
+    <lastmod>2020-02-21T11:42:18-05:00</lastmod>
   </url>
   
   <url>
     <loc>https://damienbeaufils.github.io/tags/encryption/</loc>
-    <lastmod>2020-02-17T14:25:43-05:00</lastmod>
+    <lastmod>2020-02-21T11:42:18-05:00</lastmod>
   </url>
   
   <url>
     <loc>https://damienbeaufils.github.io/blog/how-to-properly-encrypt-data-using-jpa-converters-and-spring-data-jpa/</loc>
-    <lastmod>2020-02-17T14:25:43-05:00</lastmod>
+    <lastmod>2020-02-21T11:42:18-05:00</lastmod>
   </url>
   
   <url>
     <loc>https://damienbeaufils.github.io/tags/integration-testing/</loc>
-    <lastmod>2020-02-17T14:25:43-05:00</lastmod>
+    <lastmod>2020-02-21T11:42:18-05:00</lastmod>
   </url>
   
   <url>
     <loc>https://damienbeaufils.github.io/tags/java/</loc>
-    <lastmod>2020-02-17T14:25:43-05:00</lastmod>
+    <lastmod>2020-02-21T11:42:18-05:00</lastmod>
   </url>
   
   <url>
     <loc>https://damienbeaufils.github.io/tags/spring-boot/</loc>
-    <lastmod>2020-02-17T14:25:43-05:00</lastmod>
+    <lastmod>2020-02-21T11:42:18-05:00</lastmod>
   </url>
   
   <url>
     <loc>https://damienbeaufils.github.io/tags/spring-data-jpa/</loc>
-    <lastmod>2020-02-17T14:25:43-05:00</lastmod>
+    <lastmod>2020-02-21T11:42:18-05:00</lastmod>
   </url>
   
   <url>
     <loc>https://damienbeaufils.github.io/tags/unit-testing/</loc>
-    <lastmod>2020-02-17T14:25:43-05:00</lastmod>
+    <lastmod>2020-02-21T11:42:18-05:00</lastmod>
   </url>
   
   <url>
     <loc>https://damienbeaufils.github.io/tags/technical-debt/</loc>
-    <lastmod>2020-02-17T14:25:43-05:00</lastmod>
+    <lastmod>2022-05-31T16:45:01-04:00</lastmod>
   </url>
   
   <url>
     <loc>https://damienbeaufils.github.io/tags/testing/</loc>
-    <lastmod>2020-02-17T14:25:43-05:00</lastmod>
+    <lastmod>2020-02-21T11:42:18-05:00</lastmod>
   </url>
   
   <url>
     <loc>https://damienbeaufils.github.io/tags/bash/</loc>
-    <lastmod>2020-02-17T14:25:43-05:00</lastmod>
+    <lastmod>2020-02-21T11:42:18-05:00</lastmod>
   </url>
   
   <url>
     <loc>https://damienbeaufils.github.io/tags/configuration/</loc>
-    <lastmod>2020-02-17T14:25:43-05:00</lastmod>
+    <lastmod>2020-02-21T11:42:18-05:00</lastmod>
   </url>
   
   <url>
     <loc>https://damienbeaufils.github.io/blog/overriding-a-string-list-configuration-key-using-java-system-properties/</loc>
-    <lastmod>2020-02-17T14:25:43-05:00</lastmod>
+    <lastmod>2020-02-21T11:42:18-05:00</lastmod>
   </url>
   
   <url>
     <loc>https://damienbeaufils.github.io/tags/play/</loc>
-    <lastmod>2020-02-17T14:25:43-05:00</lastmod>
+    <lastmod>2020-02-21T11:42:18-05:00</lastmod>
   </url>
   
   <url>
     <loc>https://damienbeaufils.github.io/tags/sbt/</loc>
-    <lastmod>2020-02-17T14:25:43-05:00</lastmod>
+    <lastmod>2020-02-21T11:42:18-05:00</lastmod>
   </url>
   
   <url>
     <loc>https://damienbeaufils.github.io/tags/cxf/</loc>
-    <lastmod>2020-02-17T14:25:43-05:00</lastmod>
+    <lastmod>2020-02-21T11:42:18-05:00</lastmod>
   </url>
   
   <url>
     <loc>https://damienbeaufils.github.io/tags/guice/</loc>
-    <lastmod>2020-02-17T14:25:43-05:00</lastmod>
+    <lastmod>2020-02-21T11:42:18-05:00</lastmod>
   </url>
   
   <url>
     <loc>https://damienbeaufils.github.io/blog/implementing-a-soap-client-with-cxf-using-play-framework-2-x/</loc>
-    <lastmod>2020-02-17T14:25:43-05:00</lastmod>
+    <lastmod>2020-02-21T11:42:18-05:00</lastmod>
   </url>
   
   <url>
     <loc>https://damienbeaufils.github.io/tags/soap/</loc>
-    <lastmod>2020-02-17T14:25:43-05:00</lastmod>
+    <lastmod>2020-02-21T11:42:18-05:00</lastmod>
   </url>
   
   <url>
     <loc>https://damienbeaufils.github.io/tags/spring/</loc>
-    <lastmod>2020-02-17T14:25:43-05:00</lastmod>
+    <lastmod>2020-02-21T11:42:18-05:00</lastmod>
   </url>
   
   <url>
     <loc>https://damienbeaufils.github.io/tags/wsdl/</loc>
-    <lastmod>2020-02-17T14:25:43-05:00</lastmod>
+    <lastmod>2020-02-21T11:42:18-05:00</lastmod>
   </url>
   
   <url>
     <loc>https://damienbeaufils.github.io/tags/wsdl2java/</loc>
-    <lastmod>2020-02-17T14:25:43-05:00</lastmod>
+    <lastmod>2020-02-21T11:42:18-05:00</lastmod>
   </url>
   
   <url>
     <loc>https://damienbeaufils.github.io/tags/astrophysics/</loc>
-    <lastmod>2020-02-17T14:25:43-05:00</lastmod>
+    <lastmod>2020-02-21T11:42:18-05:00</lastmod>
   </url>
   
   <url>
     <loc>https://damienbeaufils.github.io/tags/rest/</loc>
-    <lastmod>2020-02-17T14:25:43-05:00</lastmod>
+    <lastmod>2020-02-21T11:42:18-05:00</lastmod>
   </url>
   
   <url>
     <loc>https://damienbeaufils.github.io/tags/web-services/</loc>
-    <lastmod>2020-02-17T14:25:43-05:00</lastmod>
+    <lastmod>2020-02-21T11:42:18-05:00</lastmod>
   </url>
   
   <url>
     <loc>https://damienbeaufils.github.io/blog/</loc>
-    <lastmod>2020-02-17T14:25:43-05:00</lastmod>
+    <lastmod>2020-02-21T11:42:18-05:00</lastmod>
     <priority>0.9</priority>
   </url>
   
   <url>
     <loc>https://damienbeaufils.github.io/projects/</loc>
-    <lastmod>2020-02-17T14:25:43-05:00</lastmod>
+    <lastmod>2020-02-21T11:42:18-05:00</lastmod>
     <priority>0.9</priority>
   </url>
   
   <url>
     <loc>https://damienbeaufils.github.io/publications/</loc>
-    <lastmod>2020-02-17T14:25:43-05:00</lastmod>
+    <lastmod>2020-02-21T11:42:18-05:00</lastmod>
     <priority>0.6</priority>
   </url>
   

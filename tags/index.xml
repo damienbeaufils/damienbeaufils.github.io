@@ -6,10 +6,55 @@
     <description>Recent content in Tags on Damien Beaufils</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-ca</language>
-    <lastBuildDate>Tue, 13 Nov 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 25 May 2022 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://damienbeaufils.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Code coverage</title>
+      <link>https://damienbeaufils.github.io/tags/code-coverage/</link>
+      <pubDate>Wed, 25 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://damienbeaufils.github.io/tags/code-coverage/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>KPI</title>
+      <link>https://damienbeaufils.github.io/tags/kpi/</link>
+      <pubDate>Wed, 25 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://damienbeaufils.github.io/tags/kpi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mutation testing</title>
+      <link>https://damienbeaufils.github.io/tags/mutation-testing/</link>
+      <pubDate>Wed, 25 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://damienbeaufils.github.io/tags/mutation-testing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Software Craftsmanship</title>
+      <link>https://damienbeaufils.github.io/tags/software-craftsmanship/</link>
+      <pubDate>Wed, 25 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://damienbeaufils.github.io/tags/software-craftsmanship/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Stryker</title>
+      <link>https://damienbeaufils.github.io/tags/stryker/</link>
+      <pubDate>Wed, 25 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://damienbeaufils.github.io/tags/stryker/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Design</title>
@@ -17,15 +62,6 @@
       <pubDate>Tue, 13 Nov 2018 00:00:00 +0000</pubDate>
       
       <guid>https://damienbeaufils.github.io/tags/design/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Software Craftsmanship</title>
-      <link>https://damienbeaufils.github.io/tags/software-craftsmanship/</link>
-      <pubDate>Tue, 13 Nov 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://damienbeaufils.github.io/tags/software-craftsmanship/</guid>
       <description></description>
     </item>
     

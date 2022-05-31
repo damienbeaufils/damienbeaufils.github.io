@@ -6,7 +6,7 @@ featured: false
 description: "A talk I gave during Paris Web 2016 about Software Craftsmanship practices."
 tags: ["Software Craftsmanship", "Test Driven Development", "Test Pyramid", "Tech Lead", "Technical Debt"]
 image: ""
-link: "https://www.paris-web.fr/2016/conferences/developpement-artisanal-dun-logiciel-en-20-iterations.php"
+link: "https://www.youtube.com/watch?v=2QNzIj21HUc&list=PL0tef3rFSDXmw2xj_cU1r-Weyd3_i63xF"
 fact: ""
 weight: 400
 sitemap:
@@ -19,3 +19,5 @@ L'enjeu réel a été de maintenir la base de code aussi bien back-end que front
 Une équipe composée d'un Tech Lead et de quatre développeurs a réussi à livrer un produit maintenable en plus d'être bien conçu.
 
 Après une brève présentation de l'architecture et des technologies utilisées, nous vous présenterons la méthodologie mise en place de l'itération 0 à l'itération 20. Nous vous expliquerons en quoi Software Craftsmanship est une extension naturelle des méthodologies agiles, et ce que les pratiques ont apporté à l'équipe de développement, au métier et à la DSI.
+
+{{< youtube id="2QNzIj21HUc" t="80" width="600px" >}}

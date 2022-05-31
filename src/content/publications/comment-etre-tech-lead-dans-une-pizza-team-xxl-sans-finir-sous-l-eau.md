@@ -6,7 +6,7 @@ featured: true
 description: "A talk I gave during Devoxx France 2017 about the Tech Lead role and about the Software Craftsmanship practices in a software development team."
 tags: ["Software Craftsmanship", "Test Driven Development", "Test Pyramid", "Tech Lead", "Technical Debt"]
 image: ""
-link: "https://www.youtube.com/watch?v=eEUfsjYj3rw"
+link: "https://www.youtube.com/watch?v=eEUfsjYj3rw&list=PL0tef3rFSDXmw2xj_cU1r-Weyd3_i63xF"
 fact: ""
 weight: 400
 sitemap:

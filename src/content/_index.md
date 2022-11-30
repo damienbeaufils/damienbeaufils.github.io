@@ -1,5 +1,5 @@
 ---
-title: "Software Developer, Software Crafter, Senior Consultant, Trainer · Montréal, QC, Canada"
+title: "Software Developer, Software Crafter, Senior Consultant, Trainer · Québec, Canada"
 date: 2022-11-29T12:00:00-04:00
 sitemap:
   priority : 1.0

@@ -1,10 +1,10 @@
 ---
 title: "Software Developer, Software Crafter, Senior Consultant, Trainer · Québec, Canada"
-date: 2022-11-29T12:00:00-04:00
+date: 2023-01-02T12:00:00-04:00
 sitemap:
   priority : 1.0
 ---
-**Software Crafter, currently freelance Software Crafter @ [CLWeb Charlevoix](https://clweb-charlevoix.ca/)**
+**Freelance Software Crafter, owner @ [CLWeb Charlevoix](https://clweb-charlevoix.ca/)**
 
 I am a passionate developer for more than 16 years. Convinced that working software is good but not enough, I work with my clients mainly as a Tech Lead in agile projects to build well-crafted software. I have worked as a Tech Lead for high stakes projects such as government websites or international sports tournaments websites.
 

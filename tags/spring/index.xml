@@ -6,7 +6,11 @@
     <description>Recent content in Spring on Damien Beaufils</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-ca</language>
-    <lastBuildDate>Mon, 21 Dec 2015 00:00:00 +0000</lastBuildDate><atom:link href="https://damienbeaufils.github.io/tags/spring/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 21 Dec 2015 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://damienbeaufils.github.io/tags/spring/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>Implementing a SOAP client with CXF using Play Framework 2.x</title>
       <link>https://damienbeaufils.github.io/blog/implementing-a-soap-client-with-cxf-using-play-framework-2-x/</link>

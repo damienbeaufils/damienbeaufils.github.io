@@ -6,7 +6,11 @@
     <description>Recent content in Tracer Bullet on Damien Beaufils</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-ca</language>
-    <lastBuildDate>Fri, 23 Feb 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://damienbeaufils.github.io/tags/tracer-bullet/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 23 Feb 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://damienbeaufils.github.io/tags/tracer-bullet/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>Guide anti-frustration pour navigation en projet trouble</title>
       <link>https://damienbeaufils.github.io/publications/guide-anti-frustration-pour-navigation-en-projet-trouble/</link>

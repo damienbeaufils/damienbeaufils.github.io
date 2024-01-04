@@ -6,7 +6,11 @@
     <description>Recent content in Design on Damien Beaufils</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-ca</language>
-    <lastBuildDate>Tue, 13 Nov 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://damienbeaufils.github.io/tags/design/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 13 Nov 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://damienbeaufils.github.io/tags/design/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>To DRY or not to DRY?</title>
       <link>https://damienbeaufils.github.io/publications/to-dry-or-not-to-dry/</link>

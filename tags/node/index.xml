@@ -6,7 +6,11 @@
     <description>Recent content in node on Damien Beaufils</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-ca</language>
-    <lastBuildDate>Thu, 30 Nov 2017 00:00:00 +0000</lastBuildDate><atom:link href="https://damienbeaufils.github.io/tags/node/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 30 Nov 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://damienbeaufils.github.io/tags/node/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>Server-Sent Events with Nuxt.js (Vue.js) and Nginx proxy</title>
       <link>https://damienbeaufils.github.io/blog/server-sent-events-with-nuxt-js-vue-js-and-nginx-proxy/</link>

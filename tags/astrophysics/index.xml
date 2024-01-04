@@ -6,7 +6,11 @@
     <description>Recent content in Astrophysics on Damien Beaufils</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-ca</language>
-    <lastBuildDate>Wed, 15 Jun 2011 00:00:00 +0000</lastBuildDate><atom:link href="https://damienbeaufils.github.io/tags/astrophysics/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 15 Jun 2011 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://damienbeaufils.github.io/tags/astrophysics/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>Web Services for IAS CoRoT archives</title>
       <link>https://damienbeaufils.github.io/publications/web-services-for-ias-corot-archives/</link>

@@ -6,11 +6,7 @@
     <description>Recent content in Test Pyramid on Damien Beaufils</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-ca</language>
-    <lastBuildDate>Mon, 01 Jan 2018 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://damienbeaufils.github.io/tags/test-pyramid/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Mon, 01 Jan 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://damienbeaufils.github.io/tags/test-pyramid/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Café Craft podcast #15 : Renverser la pyramide des tests !</title>
       <link>https://damienbeaufils.github.io/publications/cafe-craft-podcast-15-renverser-la-pyramide-des-tests/</link>
@@ -26,8 +22,8 @@
       <pubDate>Fri, 07 Apr 2017 00:00:00 +0000</pubDate>
       
       <guid>https://damienbeaufils.github.io/publications/comment-etre-tech-lead-dans-une-pizza-team-xxl-sans-finir-sous-l-eau/</guid>
-      <description>Être Tech Lead, c&amp;rsquo;est être au service de l&#39;équipe en étant à la fois formateur, facilitateur, expert et coach. Mais quand l&#39;équipe projet est composée de plus de 15 personnes, dont 10 développeur·euse·s, comment remplir ce rôle tout en continuant à prendre le temps de développer avec l&#39;équipe, et ce sans finir sous l&amp;rsquo;eau ?
-Dans cette conférence, je vous partagerai un retour d&amp;rsquo;expérience d&amp;rsquo;1 an dans le rôle du Tech Lead d&amp;rsquo;une équipe de développement travaillant sur un site web grand public.</description>
+      <description>Être Tech Lead, c&amp;rsquo;est être au service de l&amp;rsquo;équipe en étant à la fois formateur, facilitateur, expert et coach. Mais quand l&amp;rsquo;équipe projet est composée de plus de 15 personnes, dont 10 développeur·euse·s, comment remplir ce rôle tout en continuant à prendre le temps de développer avec l&amp;rsquo;équipe, et ce sans finir sous l&amp;rsquo;eau ?
+Dans cette conférence, je vous partagerai un retour d&amp;rsquo;expérience d&#39;1 an dans le rôle du Tech Lead d&amp;rsquo;une équipe de développement travaillant sur un site web grand public.</description>
     </item>
     
     <item>
@@ -47,7 +43,7 @@ Dans cette conférence, je vous partagerai un retour d&amp;rsquo;expérience d&a
       
       <guid>https://damienbeaufils.github.io/publications/developpement-artisanal-d-un-logiciel-en-20-iterations/</guid>
       <description>Retour d&amp;rsquo;expérience d&amp;rsquo;un projet de refonte d&amp;rsquo;une billetterie en ligne sur dix mois. L&amp;rsquo;enjeu attendu était les performances du back-end pour tenir la charge lors de l&amp;rsquo;ouverture des ventes. L&amp;rsquo;enjeu réel a été de maintenir la base de code aussi bien back-end que front-end au fil des itérations.
-Une équipe composée d&amp;rsquo;un Tech Lead et de quatre développeurs a réussi à livrer un produit maintenable en plus d&#39;être bien conçu.</description>
+Une équipe composée d&amp;rsquo;un Tech Lead et de quatre développeurs a réussi à livrer un produit maintenable en plus d&amp;rsquo;être bien conçu.</description>
     </item>
     
     <item>

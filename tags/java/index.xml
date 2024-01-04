@@ -6,11 +6,7 @@
     <description>Recent content in Java on Damien Beaufils</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-ca</language>
-    <lastBuildDate>Fri, 21 Jul 2017 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://damienbeaufils.github.io/tags/java/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Fri, 21 Jul 2017 00:00:00 +0000</lastBuildDate><atom:link href="https://damienbeaufils.github.io/tags/java/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How to properly encrypt data using JPA converters and Spring Data JPA</title>
       <link>https://damienbeaufils.github.io/blog/how-to-properly-encrypt-data-using-jpa-converters-and-spring-data-jpa/</link>

@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Damien Beaufils | Implementing a SOAP client with CXF using Play Framework 2.x</title>
+  <meta property="og:title" content="Damien Beaufils | Implementing a SOAP client with CXF using Play Framework 2.x" />
+  <meta property="og:image" content="https://damienbeaufils.github.io/img/damienbeaufils.jpg" />
+  <meta name="description" content="">
+  <meta property="og:description" content="" />
+  <meta name="author" content="Damien Beaufils">
+  
+  <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css">
+  
+  <link rel="preload" href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:100,200,300,400,500,600,700,800,900&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:100,200,300,400,500,600,700,800,900&display=swap">
+  <link rel="preload" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&display=swap">
+  <link rel="preload" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+  <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/devicons/1.8.0/css/devicons.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/devicons/1.8.0/css/devicons.min.css">
+  <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.min.css">
+  
+  <link rel="preload" href="https://damienbeaufils.github.io/css/resume.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <link rel="stylesheet" href="https://damienbeaufils.github.io/css/resume.css">
+  <link rel="preload" href="https://damienbeaufils.github.io/css/tweaks.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <link rel="stylesheet" href="https://damienbeaufils.github.io/css/tweaks.css">
+  <link rel="preload" href="https://damienbeaufils.github.io/css/resume-override.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <link rel="stylesheet" href="https://damienbeaufils.github.io/css/resume-override.css">
+  <meta name="generator" content="Hugo 0.92.2" />
+  
+   
+  
+</head>
+<body id="page-top">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+  <a class="navbar-brand js-scroll-trigger" href="#page-top">
+    <span class="d-block d-lg-none">Damien Beaufils</span>
+    <span class="d-none d-lg-block">
+      <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="/img/damienbeaufils.jpg" alt="">
+    </span>
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link js-scroll-trigger" href="/#about">About</a>
+      </li>
+      
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="/#skills">Skills</a>
+          </li>
+      
+      
+      
+      
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="/#Publications">Publications</a>
+          </li>
+      
+      
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="/#experience">Experience</a>
+          </li>
+      
+      
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="/#education">Education</a>
+          </li>
+      
+      
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="/#blog">Blog</a>
+          </li>
+      
+    </ul>
+  </div>
+</nav>
+
+  <div class="container-fluid p-0">
+    
+<nav aria-label="breadcrumb">
+  <ol  class="breadcrumb">
+    
+
+
+
+
+
+<li class="breadcrumb-item">
+  <a href="https://damienbeaufils.github.io/">Software Developer, Software Crafter, Senior Consultant, Trainer · Québec, Canada</a>
+</li>
+
+
+<li class="breadcrumb-item">
+  <a href="https://damienbeaufils.github.io/blog/">Blog</a>
+</li>
+
+
+<li class="breadcrumb-item active">
+  <a href="https://damienbeaufils.github.io/blog/implementing-a-soap-client-with-cxf-using-play-framework-2-x/">Implementing a SOAP client with CXF using Play Framework 2.x</a>
+</li>
+
+  </ol>
+</nav>
+
+
+
+
+<section class="resume-section p-3 p-lg-5 d-flex d-column">
+  <div class="my-auto">
+    <h2 class="mb-0"><span class="text-primary">Implementing a SOAP client with CXF using Play Framework 2.x</span></h2>
+    <span class="text-primary">December 21, 2015</span>
+    <p><strong>TL;DR: if you want to skip the tutorial, all code is directly available on GitHub: <a href="https://github.com/damienbeaufils/soap-client-with-cxf-using-play">https://github.com/damienbeaufils/soap-client-with-cxf-using-play</a></strong></p>
+<p><strong>EDIT June 2016: code on my GitHub repository updated for Play Framework 2.5! Play 2.4 version is still available <a href="https://github.com/damienbeaufils/soap-client-with-cxf-using-play/tree/play-2.4.x">here</a>.</strong></p>
+<p>I was working on a new client product, and I had to plug a web application built with Play Framework (and then sbt) to SOAP web services. How to do it?</p>
+<p>The need: be able to generate Java classes from one or many WSDL files, and use those classes with Play 2.4 dependency injection (which use Guice as implementation).</p>
+<p>The issue: no <em>out-of-the-box</em> SOAP support on Play.</p>
+<p>The good news: there is an official plugin from Typesafe which answer the need: <a href="http://downloads.typesafe.com/rp/play-soap/Home.html">play-soap-sbt</a>. It promises a reactive implementation of SOAP web services calls from your application.</p>
+<p>The bad news: this plugin is a part of the <em>Typesafe Reactive Plateform</em> suite, and you have to pay an unknown amount (I didn&rsquo;t found any value on the website) to be able to use this plugin in your application.</p>
+<p>Coming from the Java/Groovy world, I often used Spring framework. When I had to use SOAP in an application, I used CXF most of the time, which works perfectly with Spring. So I asked myself <strong>how to use CXF with Play?</strong></p>
+<p>I didn&rsquo;t found any miracle answer on the web, so I built a custom solution, inspired mainly by <a href="https://github.com/imindeu/play-cxf/tree/play-2.4.x">play-cxf</a>. So here is a tutorial, step by step, to implement a SOAP client with CXF 3.1.x using Play Framework 2.4.x:</p>
+<h4 id="step1-create-a-new-play-application-with-activator">Step 1: create a new Play application with activator</h4>
+<p>Optional step if you already have an existing application.</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback"># cf. https://www.playframework.com/documentation/2.4.x/NewApplication
+activator new soap-client-with-cxf-using-play play-java
+</code></pre></div><h4 id="step2-downloada-wsdl-and-store-it-in-the-project">Step 2: download a WSDL and store it in the project</h4>
+<p>I use for this tutorial the <a href="http://www.webservicex.net/globalweather.asmx">GlobalWeather</a> SOAP web service. Once the <a href="http://www.webservicex.net/globalweather.asmx?wsdl">WSDL</a> downloaded, the file is saved in the <strong>conf/wsdls</strong> folder:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">cd soap-client-with-cxf-using-play/conf
+mkdir wsdls
+wget http://www.webservicex.net/globalweather.asmx?WSDL -O wsdls/globalweather.wsdl
+</code></pre></div><h4 id="step3-add-thesbt-cxf-wsdl2javahttpsgithubcomebiznextsbt-cxf-wsdl2javaplugin">Step 3: add the <a href="https://github.com/ebiznext/sbt-cxf-wsdl2java">sbt-cxf-wsdl2java</a> plugin</h4>
+<p>In the <strong>project/plugins.sbt</strong> file:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">resolvers += &#34;Sonatype Repository&#34; at &#34;https://oss.sonatype.org/content/groups/public&#34;
+addSbtPlugin(&#34;com.ebiznext.sbt.plugins&#34; % &#34;sbt-cxf-wsdl2java&#34; % &#34;0.1.4&#34;)
+</code></pre></div><h4 id="step-4-add-cxf-required-dependencies">Step 4: add CXF required dependencies</h4>
+<p>In the <strong>build.sbt</strong> file:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">val cxfVersion: String = &#34;3.1.4&#34;
+ 
+libraryDependencies ++= Seq(
+  ...
+  &#34;org.apache.cxf&#34; % &#34;cxf-rt-frontend-jaxws&#34; % cxfVersion,
+  &#34;org.apache.cxf&#34; % &#34;cxf-rt-transports-http&#34; % cxfVersion
+)
+</code></pre></div><h4 id="step5-configure-the-wsdl2java-task-to-automatically-generate-the-classes-corresponding-to-the-downloaded-wsdl">Step 5: configure the wsdl2java task to automatically generate the classes corresponding to the downloaded WSDL</h4>
+<p>In the <strong>build.sbt</strong> file:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">// CXF wsdl2java configuration
+Seq(cxf.settings: _*)
+cxf.cxfVersion := cxfVersion
+cxf.wsdls := Seq(
+  cxf.Wsdl((resourceDirectory in Compile).value / &#34;wsdls/globalweather.wsdl&#34;, Seq(&#34;-mark-generated&#34;, &#34;-p&#34;, &#34;com.global.weather&#34;), &#34;globalweather&#34;)
+)
+</code></pre></div><h4 id="step6-launch-wsdl2java-task">Step 6: launch wsdl2java task</h4>
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">activator clean wsdl2java
+</code></pre></div><p>or</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">sbt clean wsdl2java
+</code></pre></div><p>Generated classes should then be found in <strong>target/cxf/globalweather</strong> folder:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">tree target/cxf/globalweather
+ 
+target/cxf/globalweather/
+└── com
+    └── global
+        └── weather
+            ├── GetCitiesByCountry.java
+            ├── GetCitiesByCountryResponse.java
+            ├── GetWeather.java
+            ├── GetWeatherResponse.java
+            ├── GlobalWeatherHttpGet_GlobalWeatherHttpGet_Client.java
+            ├── GlobalWeatherHttpGet.java
+            ├── GlobalWeatherHttpPost_GlobalWeatherHttpPost_Client.java
+            ├── GlobalWeatherHttpPost.java
+            ├── GlobalWeather.java
+            ├── GlobalWeatherSoap_GlobalWeatherSoap12_Client.java
+            ├── GlobalWeatherSoap_GlobalWeatherSoap_Client.java
+            ├── GlobalWeatherSoap.java
+            ├── ObjectFactory.java
+            └── package-info.java
+ 
+3 directories, 14 files
+</code></pre></div><h4 id="step-7-add-spring-context-dependency">Step 7: add Spring Context dependency</h4>
+<p>Generated classes are now in the classpath, but we have to use Spring to be able to instanciate and use CXF JAX-WS client.</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">libraryDependencies ++= Seq(
+  ...
+  &#34;org.springframework&#34; % &#34;spring-context&#34; % &#34;4.2.4.RELEASE&#34;
+)
+</code></pre></div><h4 id="step-8-declare-cxf-generatedjax-ws-client-in-the-spring-context">Step 8: declare CXF generated JAX-WS client in the Spring context</h4>
+<p>In the CXF generated sources, an interface with <a href="https://docs.oracle.com/javaee/5/api/javax/jws/WebService.html">@WebService</a> annotation has been created and we can use it to easily declare the JAX-WS client. In this example, Spring context file is named <strong>applicationContext.xml</strong> and stored in <strong>conf</strong> folder:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">&lt;beans xmlns=&#34;http://www.springframework.org/schema/beans&#34; xmlns:xsi=&#34;http://www.w3.org/2001/XMLSchema-instance&#34; xmlns:jaxws=&#34;http://cxf.apache.org/jaxws&#34; xsi:schemaLocation=&#34;http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.2.xsd http://cxf.apache.org/jaxws http://cxf.apache.org/schemas/jaxws.xsd&#34;&gt;
+ 
+    &lt;import resource=&#34;classpath*:META-INF/cxf/cxf.xml&#34;/&gt;
+ 
+    &lt;jaxws:client id=&#34;globalWeatherSoapClient&#34; serviceClass=&#34;com.global.weather.GlobalWeatherSoap&#34; address=&#34;${global.weather.host}/globalweather.asmx&#34;/&gt;
+ 
+&lt;/beans&gt;
+</code></pre></div><h4 id="step-9-configure-play-to-load-spring-context-when-application-starts">Step 9: configure Play to load Spring context when application starts</h4>
+<p>For this, it is necessary to create a module, which will programmatically load Spring context, and to declare it in application configuration.</p>
+<p>In this example, module is named <strong>ApplicationContextBinderModule</strong> and stored in <strong>app/modules</strong> folder:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-go" data-lang="go"><span style="color:#204a87;font-weight:bold">package</span> <span style="color:#000">modules</span><span style="color:#000;font-weight:bold">;</span>
+ 
+<span style="color:#204a87;font-weight:bold">import</span> <span style="color:#000">com</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">google</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">inject</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">AbstractModule</span><span style="color:#000;font-weight:bold">;</span>
+<span style="color:#204a87;font-weight:bold">import</span> <span style="color:#000">org</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">springframework</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">context</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">support</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">ClassPathXmlApplicationContext</span><span style="color:#000;font-weight:bold">;</span>
+ 
+<span style="color:#000">public</span> <span style="color:#000">class</span> <span style="color:#000">ApplicationContextBinderModule</span> <span style="color:#000">extends</span> <span style="color:#000">AbstractModule</span> <span style="color:#000;font-weight:bold">{</span>
+ 
+    <span style="color:#a40000">@</span><span style="color:#000">Override</span>
+    <span style="color:#000">protected</span> <span style="color:#000">void</span> <span style="color:#000">configure</span><span style="color:#000;font-weight:bold">()</span> <span style="color:#000;font-weight:bold">{</span>
+        <span style="color:#000">ClassPathXmlApplicationContext</span> <span style="color:#000">applicationContext</span> <span style="color:#000;font-weight:bold">=</span> <span style="color:#000">new</span> <span style="color:#000">ClassPathXmlApplicationContext</span><span style="color:#000;font-weight:bold">(</span><span style="color:#4e9a06">&#34;applicationContext.xml&#34;</span><span style="color:#000;font-weight:bold">);</span>
+ 
+        <span style="color:#000">applicationContext</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">start</span><span style="color:#000;font-weight:bold">();</span>
+        <span style="color:#000">applicationContext</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">registerShutdownHook</span><span style="color:#000;font-weight:bold">();</span>
+    <span style="color:#000;font-weight:bold">}</span>
+ 
+<span style="color:#000;font-weight:bold">}</span>
+</code></pre></div><p>The module is then declared in application configuration. Here in the main configuration file <strong>application.conf</strong>:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">play.modules.enabled += &#34;modules.ApplicationContextBinderModule&#34;
+</code></pre></div><h4 id="step-10-configure-play-dependency-injection-guice-to-be-able-to-load-thejax-ws-client-with-theinject-annotation">Step 10: configure Play dependency injection (Guice) to be able to load the JAX-WS client with the @Inject annotation</h4>
+<p>With the Spring context loaded, a bean globalWeatherSoapClient exists, so we have now <a href="https://github.com/google/guice/wiki/InstanceBindings">to tell to Guice which instance to bind</a> when we want to inject a GlobalWeatherSoap dependency:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-go" data-lang="go"><span style="color:#204a87;font-weight:bold">package</span> <span style="color:#000">modules</span><span style="color:#000;font-weight:bold">;</span>
+ 
+<span style="color:#204a87;font-weight:bold">import</span> <span style="color:#000">com</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">global</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">weather</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">GlobalWeatherSoap</span><span style="color:#000;font-weight:bold">;</span>
+<span style="color:#204a87;font-weight:bold">import</span> <span style="color:#000">com</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">google</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">inject</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">AbstractModule</span><span style="color:#000;font-weight:bold">;</span>
+<span style="color:#204a87;font-weight:bold">import</span> <span style="color:#000">org</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">springframework</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">context</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">support</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">ClassPathXmlApplicationContext</span><span style="color:#000;font-weight:bold">;</span>
+ 
+<span style="color:#000">public</span> <span style="color:#000">class</span> <span style="color:#000">ApplicationContextBinderModule</span> <span style="color:#000">extends</span> <span style="color:#000">AbstractModule</span> <span style="color:#000;font-weight:bold">{</span>
+ 
+    <span style="color:#a40000">@</span><span style="color:#000">Override</span>
+    <span style="color:#000">protected</span> <span style="color:#000">void</span> <span style="color:#000">configure</span><span style="color:#000;font-weight:bold">()</span> <span style="color:#000;font-weight:bold">{</span>
+        <span style="color:#000">ClassPathXmlApplicationContext</span> <span style="color:#000">applicationContext</span> <span style="color:#000;font-weight:bold">=</span> <span style="color:#000">new</span> <span style="color:#000">ClassPathXmlApplicationContext</span><span style="color:#000;font-weight:bold">(</span><span style="color:#4e9a06">&#34;applicationContext.xml&#34;</span><span style="color:#000;font-weight:bold">);</span>
+ 
+        <span style="color:#000">applicationContext</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">start</span><span style="color:#000;font-weight:bold">();</span>
+        <span style="color:#000">applicationContext</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">registerShutdownHook</span><span style="color:#000;font-weight:bold">();</span>
+ 
+        <span style="color:#8f5902;font-style:italic">// Guice instance binding
+</span><span style="color:#8f5902;font-style:italic"></span>        <span style="color:#000">bind</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">GlobalWeatherSoap</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">class</span><span style="color:#000;font-weight:bold">).</span><span style="color:#000">toInstance</span><span style="color:#000;font-weight:bold">((</span><span style="color:#000">GlobalWeatherSoap</span><span style="color:#000;font-weight:bold">)</span> <span style="color:#000">applicationContext</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">getBean</span><span style="color:#000;font-weight:bold">(</span><span style="color:#4e9a06">&#34;globalWeatherSoapClient&#34;</span><span style="color:#000;font-weight:bold">));</span>
+    <span style="color:#000;font-weight:bold">}</span>
+ 
+<span style="color:#000;font-weight:bold">}</span>
+</code></pre></div><h4 id="step-11-inject-the-jax-ws-client-tocall-soapweb-services">Step 11: inject the JAX-WS client to call SOAP web services</h4>
+<p>Example in a <strong>GlobalWeatherController</strong> controller:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback"># Routes
+# ~~~~
+GET /cities/:country @controllers.GlobalWeatherController.getCities(country: String)
+GET /weather/:country/:city @controllers.GlobalWeatherController.getWeather(country: String, city: String)
+</code></pre></div><div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-go" data-lang="go"><span style="color:#204a87;font-weight:bold">package</span> <span style="color:#000">controllers</span><span style="color:#000;font-weight:bold">;</span>
+ 
+<span style="color:#204a87;font-weight:bold">import</span> <span style="color:#000">com</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">global</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">weather</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">GlobalWeatherSoap</span><span style="color:#000;font-weight:bold">;</span>
+<span style="color:#204a87;font-weight:bold">import</span> <span style="color:#000">play</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">mvc</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">Controller</span><span style="color:#000;font-weight:bold">;</span>
+<span style="color:#204a87;font-weight:bold">import</span> <span style="color:#000">play</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">mvc</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">Result</span><span style="color:#000;font-weight:bold">;</span>
+ 
+<span style="color:#204a87;font-weight:bold">import</span> <span style="color:#000">javax</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">inject</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">Inject</span><span style="color:#000;font-weight:bold">;</span>
+ 
+<span style="color:#000">public</span> <span style="color:#000">class</span> <span style="color:#000">GlobalWeatherController</span> <span style="color:#000">extends</span> <span style="color:#000">Controller</span> <span style="color:#000;font-weight:bold">{</span>
+ 
+    <span style="color:#a40000">@</span><span style="color:#000">Inject</span>
+    <span style="color:#000">private</span> <span style="color:#000">GlobalWeatherSoap</span> <span style="color:#000">globalWeatherSoapClient</span><span style="color:#000;font-weight:bold">;</span>
+ 
+    <span style="color:#000">public</span> <span style="color:#000">Result</span> <span style="color:#000">getCities</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">String</span> <span style="color:#000">countryName</span><span style="color:#000;font-weight:bold">)</span> <span style="color:#000;font-weight:bold">{</span>
+        <span style="color:#000">String</span> <span style="color:#000">cities</span> <span style="color:#000;font-weight:bold">=</span> <span style="color:#000">globalWeatherSoapClient</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">getCitiesByCountry</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">countryName</span><span style="color:#000;font-weight:bold">);</span>
+        <span style="color:#204a87;font-weight:bold">return</span> <span style="color:#000">ok</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">cities</span><span style="color:#000;font-weight:bold">).</span><span style="color:#000">as</span><span style="color:#000;font-weight:bold">(</span><span style="color:#4e9a06">&#34;text/xml&#34;</span><span style="color:#000;font-weight:bold">);</span>
+    <span style="color:#000;font-weight:bold">}</span>
+ 
+    <span style="color:#000">public</span> <span style="color:#000">Result</span> <span style="color:#000">getWeather</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">String</span> <span style="color:#000">countryName</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#000">String</span> <span style="color:#000">cityName</span><span style="color:#000;font-weight:bold">)</span> <span style="color:#000;font-weight:bold">{</span>
+        <span style="color:#000">String</span> <span style="color:#000">weather</span> <span style="color:#000;font-weight:bold">=</span> <span style="color:#000">globalWeatherSoapClient</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">getWeather</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">cityName</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#000">countryName</span><span style="color:#000;font-weight:bold">);</span>
+        <span style="color:#204a87;font-weight:bold">return</span> <span style="color:#000">ok</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">weather</span><span style="color:#000;font-weight:bold">).</span><span style="color:#000">as</span><span style="color:#000;font-weight:bold">(</span><span style="color:#4e9a06">&#34;text/xml&#34;</span><span style="color:#000;font-weight:bold">);</span>
+    <span style="color:#000;font-weight:bold">}</span>
+<span style="color:#000;font-weight:bold">}</span>
+</code></pre></div><h4 id="step-12-run-andtest">Step 12: run and test!</h4>
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">activator run
+</code></pre></div><p>or</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">sbt run
+</code></pre></div><p>and then</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">curl http://localhost:9000/cities/France
+</code></pre></div><p>or</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">curl http://localhost:9000/weather/France/Cognac
+</code></pre></div><p>Second request result:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">&lt;CurrentWeather&gt;
+    &lt;Location&gt;Cognac, France (LFBG) 45-40N 000-19W 31M&lt;/Location&gt;
+    &lt;Time&gt;Nov 09, 2015 - 07:30 AM EST / 2015.11.09 1230 UTC&lt;/Time&gt;
+    &lt;Wind&gt; from the SSW (200 degrees) at 7 MPH (6 KT):0&lt;/Wind&gt;
+    &lt;Visibility&gt; greater than 7 mile(s):0&lt;/Visibility&gt;
+    &lt;SkyConditions&gt; overcast&lt;/SkyConditions&gt;
+    &lt;Temperature&gt; 64 F (18 C)&lt;/Temperature&gt;
+    &lt;DewPoint&gt; 59 F (15 C)&lt;/DewPoint&gt;
+    &lt;RelativeHumidity&gt; 82%&lt;/RelativeHumidity&gt;
+    &lt;Pressure&gt; 30.47 in. Hg (1032 hPa)&lt;/Pressure&gt;
+    &lt;Status&gt;Success&lt;/Status&gt;
+&lt;/CurrentWeather&gt;
+</code></pre></div><h4 id="step-13bonus-use-play-configuration-in-spring-context">Step 13 (bonus): use Play configuration in Spring context</h4>
+<p>The applicationContext.xml file we use contains only hard-coded values. When we use SOAP web services, we often have several environments (dev vs. prod).</p>
+<p>It is possible to load configuration files in Spring context, with PropertySourcesPlaceholderConfigurer, but it is designed to read properties files and not HOCON files, which are used by Play Framework.</p>
+<p>So I created a <strong>HoconPropertySourcesPlaceholderConfigurer</strong> class, which is able to read a *.conf file in order to use it in Spring context with SpEL.</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-go" data-lang="go"><span style="color:#204a87;font-weight:bold">package</span> <span style="color:#000">utils</span><span style="color:#000;font-weight:bold">;</span>
+ 
+<span style="color:#204a87;font-weight:bold">import</span> <span style="color:#000">org</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">apache</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">commons</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">lang3</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">StringUtils</span><span style="color:#000;font-weight:bold">;</span>
+<span style="color:#204a87;font-weight:bold">import</span> <span style="color:#000">org</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">springframework</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">beans</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">BeansException</span><span style="color:#000;font-weight:bold">;</span>
+<span style="color:#204a87;font-weight:bold">import</span> <span style="color:#000">org</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">springframework</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">beans</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">factory</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">config</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">ConfigurableListableBeanFactory</span><span style="color:#000;font-weight:bold">;</span>
+<span style="color:#204a87;font-weight:bold">import</span> <span style="color:#000">org</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">springframework</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">context</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">support</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">PropertySourcesPlaceholderConfigurer</span><span style="color:#000;font-weight:bold">;</span>
+<span style="color:#204a87;font-weight:bold">import</span> <span style="color:#000">org</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">springframework</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">core</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">env</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">ConfigurablePropertyResolver</span><span style="color:#000;font-weight:bold">;</span>
+<span style="color:#204a87;font-weight:bold">import</span> <span style="color:#000">org</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">springframework</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">util</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">StringValueResolver</span><span style="color:#000;font-weight:bold">;</span>
+ 
+<span style="color:#000">public</span> <span style="color:#000">class</span> <span style="color:#000">HoconPropertySourcesPlaceholderConfigurer</span> <span style="color:#000">extends</span> <span style="color:#000">PropertySourcesPlaceholderConfigurer</span> <span style="color:#000;font-weight:bold">{</span>
+ 
+    <span style="color:#a40000">@</span><span style="color:#000">Override</span>
+    <span style="color:#000">protected</span> <span style="color:#000">void</span> <span style="color:#000">processProperties</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">ConfigurableListableBeanFactory</span> <span style="color:#000">beanFactoryToProcess</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#000">ConfigurablePropertyResolver</span> <span style="color:#000">propertyResolver</span><span style="color:#000;font-weight:bold">)</span> <span style="color:#000">throws</span> <span style="color:#000">BeansException</span> <span style="color:#000;font-weight:bold">{</span>
+        <span style="color:#000">propertyResolver</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">setPlaceholderPrefix</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">this</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">placeholderPrefix</span><span style="color:#000;font-weight:bold">);</span>
+        <span style="color:#000">propertyResolver</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">setPlaceholderSuffix</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">this</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">placeholderSuffix</span><span style="color:#000;font-weight:bold">);</span>
+        <span style="color:#000">propertyResolver</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">setValueSeparator</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">this</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">valueSeparator</span><span style="color:#000;font-weight:bold">);</span>
+ 
+        <span style="color:#000">StringValueResolver</span> <span style="color:#000">valueResolver</span> <span style="color:#000;font-weight:bold">=</span> <span style="color:#000">strVal</span> <span style="color:#ce5c00;font-weight:bold">-</span><span style="color:#000;font-weight:bold">&gt;</span> <span style="color:#000;font-weight:bold">{</span>
+            <span style="color:#000">String</span> <span style="color:#000">resolved</span> <span style="color:#000;font-weight:bold">=</span> <span style="color:#000">ignoreUnresolvablePlaceholders</span> <span style="color:#a40000">?</span>
+                    <span style="color:#000">propertyResolver</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">resolvePlaceholders</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">strVal</span><span style="color:#000;font-weight:bold">)</span> <span style="color:#000;font-weight:bold">:</span>
+                    <span style="color:#000">propertyResolver</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">resolveRequiredPlaceholders</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">strVal</span><span style="color:#000;font-weight:bold">);</span>
+            <span style="color:#204a87;font-weight:bold">return</span> <span style="color:#000">resolved</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">equals</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">nullValue</span><span style="color:#000;font-weight:bold">)</span> <span style="color:#a40000">?</span> <span style="color:#000">null</span> <span style="color:#000;font-weight:bold">:</span> <span style="color:#000">StringUtils</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">replace</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">resolved</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#4e9a06">&#34;\&#34;&#34;</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#4e9a06">&#34;&#34;</span><span style="color:#000;font-weight:bold">);</span>
+        <span style="color:#000;font-weight:bold">};</span>
+ 
+        <span style="color:#000">doProcessProperties</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">beanFactoryToProcess</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#000">valueResolver</span><span style="color:#000;font-weight:bold">);</span>
+    <span style="color:#000;font-weight:bold">}</span>
+<span style="color:#000;font-weight:bold">}</span>
+</code></pre></div><p>The applicationContext.xml file then become:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">&lt;beans xmlns=&#34;http://www.springframework.org/schema/beans&#34;
+       xmlns:xsi=&#34;http://www.w3.org/2001/XMLSchema-instance&#34;
+       xmlns:jaxws=&#34;http://cxf.apache.org/jaxws&#34;
+       xmlns:http-conf=&#34;http://cxf.apache.org/transports/http/configuration&#34;
+       xsi:schemaLocation=&#34;http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.2.xsd
+        http://cxf.apache.org/jaxws http://cxf.apache.org/schemas/jaxws.xsd
+        http://cxf.apache.org/transports/http/configuration http://cxf.apache.org/schemas/configuration/http-conf.xsd&#34;&gt;
+ 
+    &lt;import resource=&#34;classpath*:META-INF/cxf/cxf.xml&#34;/&gt;
+ 
+    &lt;bean class=&#34;utils.HoconPropertySourcesPlaceholderConfigurer&#34;&gt;
+        &lt;!-- Load configuration file defined in config.resource (see https://www.playframework.com/documentation/2.4.x/ProductionConfiguration) --&gt;
+        &lt;!-- If no config.resource defined, use application.conf --&gt;
+        &lt;property name=&#34;location&#34; value=&#34;#{systemProperties[&#39;config.resource&#39;] ?: &#39;application.conf&#39;}&#34;/&gt;
+    &lt;/bean&gt;
+ 
+    &lt;jaxws:client id=&#34;globalWeatherSoapClient&#34;
+                  serviceClass=&#34;com.global.weather.GlobalWeatherSoap&#34;
+                  address=&#34;${global.weather.host}/globalweather.asmx&#34;/&gt;
+ 
+    &lt;http-conf:conduit name=&#34;${global.weather.host}/.*&#34;&gt;
+        &lt;http-conf:client ConnectionTimeout=&#34;${global.weather.connection.timeout}&#34;
+                          ReceiveTimeout=&#34;${global.weather.response.timeout}&#34;
+                          AllowChunking=&#34;false&#34;/&gt;
+    &lt;/http-conf:conduit&gt;
+ 
+&lt;/beans&gt;
+</code></pre></div><p>And in configuration:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback"># Global weather SOAP client configuration
+# ~~~~~
+global.weather.host = &#34;http://www.webservicex.net&#34;
+global.weather.connection.timeout = 60000
+global.weather.response.timeout = 60000
+</code></pre></div><h4 id="finalcode">Final code</h4>
+<p>All the code of this tutorial is available on GitHub: <a href="https://github.com/damienbeaufils/soap-client-with-cxf-using-play">https://github.com/damienbeaufils/soap-client-with-cxf-using-play</a></p>
+<p><em>Feel free to fork &amp; enjoy!</em></p>
+
+    
+    <ul class="tags">
+    
+      <li><a class="tag" href="/tags/java">Java</a></li>
+    
+      <li><a class="tag" href="/tags/play">Play</a></li>
+    
+      <li><a class="tag" href="/tags/sbt">sbt</a></li>
+    
+      <li><a class="tag" href="/tags/soap">SOAP</a></li>
+    
+      <li><a class="tag" href="/tags/cxf">CXF</a></li>
+    
+      <li><a class="tag" href="/tags/wsdl">WSDL</a></li>
+    
+      <li><a class="tag" href="/tags/guice">Guice</a></li>
+    
+      <li><a class="tag" href="/tags/wsdl2java">wsdl2java</a></li>
+    
+      <li><a class="tag" href="/tags/spring">Spring</a></li>
+    
+</ul>
+
+  </div>
+</section>
+
+
+    <span style="color: #999999; font-size: 60%;">Nifty <a href="https://codepen.io/wbeeftink/pen/dIaDH">tech tag lists</a> from <a class="pen-owner-link" href="https://codepen.io/wbeeftink">Wouter Beeftink</a> </span>
+     | <span style="color: #999999; font-size: 60%;">Page content generated from commit: <a href="https://github.com/damienbeaufils/damienbeaufils.github.io/commit//1fa7c81" title="log: 👷 add github actions workflow">1fa7c81</a>
+  </div>
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script async src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.bundle.min.js"></script>
+
+  
+  <script async src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+  
+  <script async src="/js/resume.js"></script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-158255875-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-158255875-1');
+  </script>
+  
+
+  
+</body>
+</html>

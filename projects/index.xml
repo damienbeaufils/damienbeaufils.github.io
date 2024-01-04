@@ -5,10 +5,6 @@
     <link>https://damienbeaufils.github.io/projects/</link>
     <description>Recent content in Projects on Damien Beaufils</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-ca</language>
-    
-	<atom:link href="https://damienbeaufils.github.io/projects/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>en-ca</language><atom:link href="https://damienbeaufils.github.io/projects/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

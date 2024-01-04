@@ -6,11 +6,7 @@
     <description>Recent content in Jenkins on Damien Beaufils</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-ca</language>
-    <lastBuildDate>Thu, 26 Oct 2017 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://damienbeaufils.github.io/tags/jenkins/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Thu, 26 Oct 2017 00:00:00 +0000</lastBuildDate><atom:link href="https://damienbeaufils.github.io/tags/jenkins/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Docker in Jenkins in Docker</title>
       <link>https://damienbeaufils.github.io/blog/docker-in-jenkins-in-docker/</link>

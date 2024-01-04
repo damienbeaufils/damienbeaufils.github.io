@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>WSDL on Damien Beaufils</title>
+    <link>https://damienbeaufils.github.io/tags/wsdl/</link>
+    <description>Recent content in WSDL on Damien Beaufils</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-ca</language>
+    <lastBuildDate>Mon, 21 Dec 2015 00:00:00 +0000</lastBuildDate><atom:link href="https://damienbeaufils.github.io/tags/wsdl/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Implementing a SOAP client with CXF using Play Framework 2.x</title>
+      <link>https://damienbeaufils.github.io/blog/implementing-a-soap-client-with-cxf-using-play-framework-2-x/</link>
+      <pubDate>Mon, 21 Dec 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://damienbeaufils.github.io/blog/implementing-a-soap-client-with-cxf-using-play-framework-2-x/</guid>
+      <description>TL;DR: if you want to skip the tutorial, all code is directly available on GitHub: https://github.com/damienbeaufils/soap-client-with-cxf-using-play
+EDIT June 2016: code on my GitHub repository updated for Play Framework 2.5! Play 2.4 version is still available here.
+I was working on a new client product, and I had to plug a web application built with Play Framework (and then sbt) to SOAP web services. How to do it?
+The need: be able to generate Java classes from one or many WSDL files, and use those classes with Play 2.</description>
+    </item>
+    
+  </channel>
+</rss>

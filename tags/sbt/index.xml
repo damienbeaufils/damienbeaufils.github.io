@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>sbt on Damien Beaufils</title>
+    <link>https://damienbeaufils.github.io/tags/sbt/</link>
+    <description>Recent content in sbt on Damien Beaufils</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-ca</language>
+    <lastBuildDate>Tue, 02 Feb 2016 00:00:00 +0000</lastBuildDate><atom:link href="https://damienbeaufils.github.io/tags/sbt/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Overriding a String List configuration key using Java System properties</title>
+      <link>https://damienbeaufils.github.io/blog/overriding-a-string-list-configuration-key-using-java-system-properties/</link>
+      <pubDate>Tue, 02 Feb 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://damienbeaufils.github.io/blog/overriding-a-string-list-configuration-key-using-java-system-properties/</guid>
+      <description>With Play Framework, you can override configuration keys by specifying them as Java System properties. Example:
+activator run -Dsome.key=&amp;#34;some.value&amp;#34; But if you have a String List key, you cannot override it like in the configuration file. Example using the trusted proxies configuration:
+activator run -Dplay.http.forwarded.trustedProxies=\[&amp;#34;127.0.0.0/8&amp;#34;,&amp;#34;10.0.0.0/8&amp;#34;\] You will have this runtime error:
+Configuration error\[system properties: play.http.forwarded.trustedProxies has type STRING rather than LIST\] To avoid this, you have to specify each entry of the list using the entry index:</description>
+    </item>
+    
+    <item>
+      <title>Implementing a SOAP client with CXF using Play Framework 2.x</title>
+      <link>https://damienbeaufils.github.io/blog/implementing-a-soap-client-with-cxf-using-play-framework-2-x/</link>
+      <pubDate>Mon, 21 Dec 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://damienbeaufils.github.io/blog/implementing-a-soap-client-with-cxf-using-play-framework-2-x/</guid>
+      <description>TL;DR: if you want to skip the tutorial, all code is directly available on GitHub: https://github.com/damienbeaufils/soap-client-with-cxf-using-play
+EDIT June 2016: code on my GitHub repository updated for Play Framework 2.5! Play 2.4 version is still available here.
+I was working on a new client product, and I had to plug a web application built with Play Framework (and then sbt) to SOAP web services. How to do it?
+The need: be able to generate Java classes from one or many WSDL files, and use those classes with Play 2.</description>
+    </item>
+    
+  </channel>
+</rss>
